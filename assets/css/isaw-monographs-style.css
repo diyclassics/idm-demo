@@ -1,0 +1,48 @@
+.frontmatter {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#book-cover {
+    margin-top: 25px;
+}
+
+#book-loc-data {
+    font-size: x-small;
+    background-color: lightgray;
+    padding: 5px 15px;
+    margin: 10px 0;
+}
+
+.term {
+    font-style: italic;
+}
+
+.term::after {
+    content: ":";
+    margin-right: 0.5em;
+  }
+
+.term-definition {
+    display: flex;
+    margin-bottom: 0.5em;
+}
+
+.definition {
+    flex: 1;
+}
+
+h4 {
+    font-style: italic;
+}
+
+/* .striped {
+    /* background-color: #f9f9f9; */
+    border-collapse: collapse;
+}
+
+.striped tr:nth-child(even) {
+    background-color: #f2f2f2;
+} */
