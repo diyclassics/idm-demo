@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -42,6 +62,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-626149efe8f5d16e1d391ba177679bf0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -74,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="assets/css/isaw-monographs-style.css">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -209,11 +232,22 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">10.1</span> Introduction</a></li>
+  <li><a href="#technical-remarks" id="toc-technical-remarks" class="nav-link" data-scroll-target="#technical-remarks"><span class="header-section-number">10.2</span> Technical Remarks</a></li>
+  <li><a href="#sec-10.3" id="toc-sec-10.3" class="nav-link" data-scroll-target="#sec-10.3"><span class="header-section-number">10.3</span> Ostraka</a></li>
+  <li><a href="#sec-10.4" id="toc-sec-10.4" class="nav-link" data-scroll-target="#sec-10.4"><span class="header-section-number">10.4</span> Inscriptions</a></li>
+  <li><a href="#sec-10.5" id="toc-sec-10.5" class="nav-link" data-scroll-target="#sec-10.5"><span class="header-section-number">10.5</span> Figural Dipinti and Graffiti</a></li>
+  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes"><span class="header-section-number">10.6</span> Notes</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -240,10 +274,1620 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong><em>This chapter is not yet available.</em></strong></p>
 <p><strong><em>This is a work-in-progress digital proof; the digital edition is expected to be published in July 2025. Please consult the print edition until final publication: <a href="https://isaw.nyu.edu/publications/isaw-monographs/ain-el-gedida">https://isaw.nyu.edu/publications/isaw-monographs/ain-el-gedida</a></em></strong></p>
+<section id="introduction" class="level2 page-columns page-full" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">10.1</span> Introduction</h2>
+<p id="p1">
+The ostraka uncovered at ʿAin el-Gedida in 2006–2008 fall into the common categories represented in this type of texts: a short letter (<strong><a href="#ost-1">1</a></strong>), accounts (<strong><a href="#ost-2">2-3</a></strong>), lists (<strong><a href="#ost-4">4</a></strong>) and receipts (<strong><a href="#ost-5">5-9</a></strong>). Texts on three of the ostraka (<strong><a href="#ost-10">10-12</a></strong>) were classified as uncertain because of their fragmentary or laconic nature. Ten were written in Greek and two in Coptic.
+</p>
+<div class="page-columns page-full"><p id="p2">
+Eleven out of twelve ostraka are dated to the fourth century, either on palaeographic and internal grounds or based on their archaeological context. One ostrakon (<strong><a href="#ost-9">9</a></strong>, see comm. l. 1) is assigned to the third century because of the monetary value of rent mentioned in the text. The ostrakon’s early dating is in agreement with the chronology of its context, as it appears to belong to the phase when the building where it was found was a temple, possibly dated to the second–third century (see <a href="6_west-complex.html#sec-6.5-b22-b23" class="quarto-xref"><span>Section 6.5</span></a> and <a href="6_west-complex.html#sec-6.7" class="quarto-xref"><span>Section 6.7</span></a>). Undated ostraka from surface clearance or unreliable contexts (<strong><a href="#ost-1">1</a></strong>, <strong><a href="#ost-3">3</a></strong>, <strong><a href="#ost-10">10</a></strong>, <strong><a href="#ost-12">12</a></strong>) were assigned to the fourth century both on palaeographic grounds and because the bulk of the pottery and coins recovered from ʿAin el-Gedida (<a href="./8_la-ceramique.html">Chapter 8</a> and <a href="./9_coins.html">Chapter 9</a>) indicate that the site was occupied in that century. Moreover, the Coptic texts are very unlikely to date before the fourth century, and there are some reasons to think that <strong><a href="#ost-1">1</a></strong> might be later. The absence of any other material datable later than the late fourth or early fifth century at the site, however, leads us to prefer an earlier date to that chronological zone, which is also  consistent with the general horizon of the latest ostraka at Kellis and Trimithis. Ostraka from secure contexts were dated more precisely on the basis of numismatic evidence (<strong><a href="#ost-4">4</a></strong>, <strong><a href="#ost-8">8</a></strong>, <strong><a href="#ost-11">11</a></strong>) and their chronology is discussed in greater detail below.
+</p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;508</span></div></div>
+<p id="p3">
+Four documents (<strong><a href="#ost-2">2</a></strong>, <strong><a href="#ost-5">5</a></strong>, <strong><a href="#ost-6">6</a></strong>, <strong><a href="#ost-7">7</a></strong>), three of which come from the same building, carry indiction dates. Given the practice recorded at other sites in the Dakhla Oasis (see discussion in <em>O.Trim.</em> 1, Introduction), it is reasonable to place them in the second half of the fourth century. At nearby Kellis we have no secure evidence for the use of the indiction cycle before the middle of the fourth century. In addition, the apparent continued use of regnal years up to the reign of Constantius in Trimithis ostraka seems to confirm the generally late arrival of indiction reckoning in the Dakhla Oasis. If the impression from the Kellis material is not misleading, and if ʿAin el-Gedida followed Kellis in this practice, then the years mentioned in these four documents fall in the second half of the fourth century.
+</p>
+<p id="p4">
+<strong><a href="#ost-2">2</a></strong>, <strong><a href="#ost-6">6</a></strong>, and <strong><a href="#ost-7">7</a></strong>, discovered in two different rooms of one building complex, may be chronologically related to one another. The 12th and 13th indictions (353/4 and 354/5, 368/9 and 369/370, or 383/4 and 384/5) appear in no. <strong><a href="#ost-2">2</a></strong>, found in room B3, and the 11th indiction (352/3, 367/8 or 382/3) is attested in no. <strong><a href="#ost-7">7</a></strong> from room B1 of the same complex. These two ostraka were found in layers of occupational/ post-occupational debris directly above floor levels (<strong><a href="#ost-2">2</a></strong>: room B3, DSU10; <strong><a href="#ost-7">7</a></strong>: room B1, DSU14). <strong><a href="#ost-6">6</a></strong>, in turn, was embedded in the plaster of a niche in room B1, which may be later than the wall this niche was in, but certainly not post-occupation. The second indiction mentioned in this document likely corresponds to 358/9, 373/4 or 388/9. Therefore, given the context and the relatively short life span of this type of document, it is possible that the three ostraka refer to years of the same indiction cycle. The find patterns at Kellis and Trimithis on the whole lead us to think the indiction cycle of 357–372 is the most likely choice.
+</p>
+<p id="p5">
+No.&nbsp;<strong><a href="#ost-5">5</a></strong>, found in Room B4, also mentions the 13th indiction (354/5 or 369/370; the earlier possible but less probable dates are 324/5 and 339/40), but it need not be the same year as in <strong><a href="#ost-2">2</a></strong>, since B4 was not part of the same complex.
+</p>
+<p id="p6">
+Place names mentioned in the ostraka are few but worthy of note. One toponym that deserves to be discussed is found in <strong><a href="#ost-9">9</a></strong>, a receipt issued to a Paulos son of Mersis from the <em>georgion</em> of Pmoun Berri (for <em>georgion</em>, see comm. <em>ad loc</em>., l. 3). Pmoun Berri, which stems from Coptic ⲃⲣⲣⲉ (new, young), means ‘New Well’. The toponym is attested in <em>P.Kellis</em> 1 G 5.12 (there spelled Βερι), in <em>O.Trim</em>. 114, and in an unpublished ostrakon from ʿAin es-Sabil found in 2009. However, given the meaning of the name and the hydrology of the region, there may well have been more than one locality with this name in the Dakhla Oasis.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> Since the modern Arabic name of the site has essentially the same meaning, one is tempted to identify ʿAin el-Gedida as the <em>georgion</em> of Pmoun Berri. Nonetheless, it also cannot be entirely excluded that the settlement mentioned in the text was located somewhere else. Therefore, the hypothesis that modern ʿAin el-Gedida is an ancient site called Pmoun Berri is likely to be true, although it awaits confirmation in new evidence.
+</p>
+<div class="page-columns page-full"><p id="p7">
+Other topographic references in the ʿAin el-Gedida ostraka concern Mothis. This is not surprising, as it was the main urban center and, from the beginning of the fourth century, the capital of the nome the settlement was part of. In <strong><a href="#ost-2">2</a></strong>, the account of wheat and must, Mothis is  the destination of a part of the produce. <strong><a href="#ost-5">5</a></strong> is a receipt for <em>annona</em> for the imperial estate of Mothis. Kellis, the closest town, is not mentioned directly in the documents but seems to be connected to ʿAin el-Gedida in a number of ways. The wording, formulas and onomastics in accounts and receipts from ʿAin el-Gedida find numerous parallels in the material from Kellis. For instance, <strong><a href="#ost-2">2</a></strong> resembles the Kellis Account Book in phrasing and composition. The accounting of this text is also very similar to that found in other Kellis documents. The mentions of amounts going “to the house” (εἰς τὴν οἰκίαν) and “to the camp” (εἰς τὰ κάστρα), the appearance of <em>dapanê</em>, payment of salary, and the concept of a balance with the writer (λοιπὲ παρ᾽ ἐμοί) all point to the likelihood that he was another of the estate managers, <em>pronoêtai</em>, who were responsible for the Kellis Account Book (see <em>KAB</em> pp.&nbsp;70–72) and many other documents from Kellis and Trimithis. What is more, some individuals mentioned in the ostraka are attested at Kellis (see esp.&nbsp;<strong><a href="#ost-4">4</a></strong>).
+</p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;509</span></div></div>
+<p id="p8">
+The ʿAin el-Gedida ostraka are mostly concerned with agricultural and fiscal issues and their subject matter and vocabulary are consistent with that of textual evidence from other sites in the Great Oasis. The foodstuffs mentioned are wheat, barley, and must, commodities are transported on donkeys, and rents are paid in money and chickens. The measures used are consistent with the ones in documentation from other sites in the Dakhla Oasis and discussed most thoroughly in the <em>KAB</em> (pp.&nbsp;47–51).
+</p>
+<p id="p9">
+The documentary evidence shows that ʿAin el-Gedida was a village or hamlet in the Mothite nome that functioned as a satellite of the larger town of Kellis and was associated with it, and likely with other <em>epoikia</em> surrounding it, through ties of land ownership and tenancy, as well as personal relations. The texts show an agricultural community likely tied to a large estate like the one that produced the <em>KAB</em>. However, at this point it is difficult to say if ʿAin el-Gedida was property of a single individual.
+</p>
+<div class="page-columns page-full"><p id="p10">
+A less prominent but recurring theme in the ostraka is the Dakhla garrison. In <strong><a href="#ost-2">2</a></strong> a part of the produce is sent to “the camp,” presumably the principal base of the military unit described in the <em>Notitia Dignitatum</em> (<em>Or</em>. XXXI, 56 [Seeck, p.&nbsp;65]) as the <em>Ala</em> I <em>Quadorum</em> placed at Trimithis (erroneously assigned to the Small Oasis in the <em>ND</em>). The camp was in fact at El-Qasr, a few kilometers north of Trimithis, as discoveries by Fred Leemhuis since the 2005–2006 season have shown (see also <em>KAB</em>, p.&nbsp;73, and <em>O.Kellis</em> 102.5n).<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> The oldest part of El-Qasr is laid out in a fashion strongly reminiscent of a Roman camp, and the investigation of an old well by the Dakhleh Oasis Project in 1980 led to the discovery of signs of Roman occupation. In addition, investigation of this early phase of the site by F. Leemhuis and by the Supreme Council of Antiquities, conducted since 2005, have revealed standing remains of massive Roman brickwork structures, which are to be associated with this camp.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> The site also yielded Coptic ostraka referring to the imperial <em>kastron</em> that had since become a settlement governed by headmen.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> Further references to the camp and its garrison are found in ostraka from Trimithis. <em>O.Trim</em>. 1.73 refers to an ala (εἴλη) and its decurion (δεκαδάρχης). In the ʿAin el-Gedida material, the  <em>praepositus</em> attested in <strong><a href="#ost-8">8</a></strong> is likely an officer of this unit or of another detachment serving in the Oasis. <strong><a href="#ost-5">5</a></strong>, a receipt for <em>annona</em>, indicates that a detachment of the ala was on duty in Mothis. In the same text, the soldiers who are the recipients of the collected barley are referred to for the first time as horse-archers.
+</p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;510</span></div></div>
+<p id="p11">
+Lastly, the Coptic letter <strong><a href="#ost-1">1</a></strong> mentions apa Alexandros and apa Kire, who were most likely members of a monastic community (see comm. l.1). A monastery is mentioned several times in the material from Kellis. The <em>KAB</em> lists a <em>top</em>(<em>os</em>) <em>Mani</em> (<em>KAB</em> ll. 320 and 513), interpreted as a Manichaean monastery,<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> as a tenant of the estate and a certain Petros the <em>monachos</em> paying amounts of dates and olives on its behalf (<em>KAB</em> ll. 975-6, 1109, 1433). Another <em>monachos</em>, Timotheos, is an intermediary for a certain Nos paying turnips (ll. 1080). A monastery is mentioned in <em>P.Kellis</em>. 5 C. 12.6 (also see <em>P.Kellis</em> 1 G. 12.18–19) from ca. 360–365 and another monk, Psais, is attested in <em>O.Kellis</em> 121.5. The modern village of Tineida (perhaps derived from Copt. ⲧϩⲉⲛⲉⲉⲧⲉ, “monastery”) is considered a candidate for an ancient monastic site. It has also been suggested that modern el-Hindaw, located to the west of ʿAin el-Gedida, may represent Coptic ⲛⲧⲟⲟⲩ (“the monastery”).<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>
+</p>
+</section>
+<section id="technical-remarks" class="level2 page-columns page-full" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="technical-remarks"><span class="header-section-number">10.2</span> Technical Remarks</h2>
+<p id="p12">
+The headers in the catalogue of ostraka below are consistent with those of <em>O.Trim</em>. In addition to characterizing the physical appearance of the sherds, they supply the following contextual information: inventory number (Inv.), area (A or B), room, stratigraphic unit (DSU or FSU), field number (FN), and fabric code.
+</p>
+<p id="p13">
+The inventory number is a unique number in a sequence given to all objects found on the site. Inventory numbers 4, 7–10, 17, 25 and 28 were excavated in the 2006 season, number 529 comes from the 2007 season, and 660, 830, and 1007 from 2008. Ostraka found in area A were recovered during surface clearance and did not come from a sound stratigraphy (see <a href="1_introduction.html#sec-1.5" class="quarto-xref"><span>Section 1.5</span></a> in this volume for the division into areas A and B). In area B, ostraka were uncovered in archaeological contexts described in <a href="2_survey.html#sec-2.3" class="quarto-xref"><span>Section 2.3</span></a>, <a href="3_mound-1.html#sec-3.1.1" class="quarto-xref"><span>Section 3.1.1</span></a>, <a href="4_excavations-outside.html#sec-4.2" class="quarto-xref"><span>Section 4.2</span></a>, <a href="./6_west-complex.html">Chapter 6</a>. The context is discussed in greater detail only where it is relevant to the dating of the texts. The abbreviation DSU stands for Deposition Stratigraphic Unit and FSU is Feature Stratigraphic Unit (see <a href="1_introduction.html#sec-1.5" class="quarto-xref"><span>Section 1.5</span></a>); field object numbers (FN) are numbers assigned in the field (starting from 1 each season) in order to document the location of objects <em>in situ</em>. Ostraka discovered in sieving in area B and in surface clearance in area A do not have field object numbers. The fabric codes are explained in <a href="./8_la-ceramique.html">Chapter 8</a>.
+</p>
+<p id="p14">
+The texts are presented according to the standard papyrological practice. The use of symbols is consistent with the Leiden Convention:
+</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 38%">
+<col style="width: 61%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Symbol</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>( )</td>
+<td>Resolution of an abbreviation or symbol</td>
+</tr>
+<tr class="even">
+<td>[ ]</td>
+<td>Lacuna in the text</td>
+</tr>
+<tr class="odd">
+<td>[[ ]]</td>
+<td>Letters cancelled by the scribe</td>
+</tr>
+<tr class="even">
+<td><span class="underdot">αβγδε</span></td>
+<td>Letters the reading of which is uncertain</td>
+</tr>
+<tr class="odd">
+<td>. . . . .</td>
+<td>Letters of which part or all remain but are illegible</td>
+</tr>
+<tr class="even">
+<td>[ ± 5 ]</td>
+<td>Approximate number of letters lost in a lacuna and not restored</td>
+</tr>
+</tbody>
+</table>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;511</span></div></div>
+<p id="p15">
+Abbreviations are resolved in the text. Line notes indicate the form used in the text and correct non-standard Greek except in the case of personal names. Egyptian proper names without terminations (i.e., undeclined or not hellenized) are not accented. Greek names and words written in a non-standard spelling are accented as if the correct form had been written. In translations, Greek and Egyptian names are transliterated directly, while Roman names are given in Latin form.
+</p>
+</section>
+<section id="sec-10.3" class="level2 page-columns page-full" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="sec-10.3"><span class="header-section-number">10.3</span> Ostraka</h2>
+<hr>
+<div id="ost-1" class="page-columns page-full">
+<p><strong>1</strong>. A letter concerning <em>pakton</em>.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> Second half of the fourth century? (<a href="#plt-10.1" class="quarto-xref">Plate&nbsp;<span>10.1</span></a>)<br>
+Inv. 4. Area B, room B4, DSU4 (surface).<br>
+10.3 x 9.8 cm; complete but faded in places. Text on convex side.<br>
+Fabric: coarse A11 with exterior cream slip.</p>
+<!-- TODO: How to handle paragraphization/numbering for catalog-type entries. -->
+<p id="p16">
+The dating of this Coptic letter requires a commentary. Both the onomastics and the mention of <em>pakton</em> point to a date later than the rest of the assemblage. The names Pesente and Kire are not attested until the sixth century (see commentary below) and the term <em>pakton</em> appears for the first time in <em>SB</em> 3.6266 dated to 538 CE. The language of the document also sets it apart, as the great majority of fourth century texts found so far at ʿAin el-Gedida are in Greek. Since the ostrakon is a surface find, it could be later than the abandonment of the site. Nonetheless, given the absence of other much later surface finds, we are reluctant to date it outside the chronological range that we have at the site. The recovered ceramics date from fourth and early fifth century at the latest, which is consistent with the range of hands evidenced by the ostraka. The palaeography of this text can be dated to the late fourth century based on comparanda from Kellis. In addition, both the hand and the opening formula of the letter find parallels in two ostraka found in El-Qasr and dated by Iain Gardner to the late fourth-early fifth century.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>
+</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;512</span></div></div>
+<div id="plt-10.1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Plate&nbsp;10.1: Coptic ostrakon (inv. 4) from room B4."><img src="assets/images/chapter-10/plt-10.1.jpg" title="Coptic ostrakon (inv. 4) from room B4." class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.1: Coptic ostrakon (inv. 4) from room B4.
+</figcaption>
+</figure>
+</div>
+<table class="table-borderless caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 95%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;† ⲁⲡⲁ Ⲁⲗⲉⲝⲁⲛⲇ̣ⲣ̣[ⲟⲥ]</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>&nbsp;&nbsp;ⲡⲕⲩⲫ(ⲁⲗⲁϊⲟⲧⲏⲥ) ⲡⲉⲧⲥϩⲁϊ ⲛ . [ ]</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>ⲗ̣ϊⲗⲟⲥ ϫⲉ ⲉⲥ ⲡⲉⲥⲏⲛ[ⲧⲉ]</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>ⲁϊⲧⲛⲛⲟⲟⲩϥ ⲉⲃⲟⲗ ⲉϣⲱ̣</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>ⲡ̣ⲉ ⲟⲩⲛⲧⲏϥⲡⲁⲕⲧⲟⲛ</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>.&nbsp;&nbsp;.ϣϊⲛ ⲁⲡⲁ Ⲕϊⲣⲉ ϣϊⲧϥ</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>ⲛ̣ⲏϥ ⲁⲩⲱ ⲙⲡ̣ⲣⲧⲣⲉⲥⲧⲟⲝⲉ̣</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>ⲛⲏ̣ϥⲁⲡⲁⲣⲁⲅⲉ ⲙⲙⲉϥ</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>.&nbsp;&nbsp;.&nbsp;&nbsp;.&nbsp;&nbsp;.ⲟⲩϫⲁϊ †</td>
+</tr>
+</tbody>
+</table>
+<p>“It is apa Alexandros the foreman (κεφαλαιωτής) who writes to --lilos (or --ailos): As for Pesente, I sent him away. If he has rent (πάκτον) … , apa Kire demands/asks for it. And let it not seem appropriate to him to trouble him. Farewell (?).”</p>
+<p id="p17">
+1 See Derda and Wipszycka 1994. The title Apa does not in itself help to distinguish between ordinary clergy and monastics, but if the date is indeed the fourth century the latter seems more likely. It is interesting that an Alexandros appears in one of the ostraka from the Kellis West Church (<em>O.Kellis</em> 121.6), one line below a Ψάις μονοχ(ός), which the editor takes to be most likely a misspelling of μοναχ(ός). For references to a monastery in the proximity of ʿAin el-Gedida, see Introduction.
+</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;513</span></div></div>
+<p id="p18">
+2 ⲡⲕⲩⲫ is presumably the abbreviation of the article plus a Greek word, given the use of phi. No word starting in κυφ- seems plausible, but a small group of ostraka found in excavations by the wall of the Roman fort at El-Qasr by the Supreme Council of Antiquities includes one written by Ⲡⲁϩⲁⲙ ⲡⲕⲩⲫ( ) and another by Ⲡⲁϩⲁⲙ ⲡⲕⲉⲫⲁⲗ( ), showing that upsilon has interchanged with epsilon (see Gardner 2012: 471 and 473). The resolution κεφ(αλαιωτής) thus appears inescapable. The combination of this title with a clerical title, Apa, is remarkable. An Apa Sion is <em>kephalaiotes</em> of dyers in Herakleopolis in SB 16.12717.5, 31-32 (dated 640–650), and an Apa Ol (if it is not the name Apaol) is <em>kephalaiotes</em> in SPP 8.749.4.
+</p>
+<p id="p19">
+2–3 The nu at the end of l.2 is likely the preposition ⲛ- introducing the direct object (see opening formula type II, Biedenkopf-Ziehner 1983: 226). The long vertical stroke may belong to a rho or a kappa. No name ending with -lilos or -ailos can be found in Hasitzka’s <em>Koptische Namenbuch</em> and a TM search yields some improbable -ailos names (Σκαίλος, Καίλος, Ισμαιλος, Δαλάιλος). One would consider Λίλος, a variant of Λιλοῦς (a name attested in Kellis, <em>O.Kellis</em> 270.2, <em>P.Kellis</em> 1 G. 47.1), but its attested Coptic counterparts are ⲗⲓⲗⲟⲩ and ⲗⲉⲗⲟⲩ. Ailos would be an unlikely variant of the Latin name Aelius (all Greek variants retain the iota after the lambda) and it is thus far unattested in Coptic texts. Moreover, it would leave us without an explanation of the last letter (and any lost) in the previous line.
+</p>
+<p id="p20">
+It is a natural supposition that the recipient was at ʿAin el-Gedida, but this need not be the case.
+</p>
+<p id="p21">
+3 Pesente appears in many spellings in the ancient texts, including Πεσύνθιος or Πεσύντιος. The name is not attested in securely dated documents as early as the fourth century. Πεσύνθιος is featured in <em>BGU</em> 2.668ro.12 (Western Thebes), broadly dated to the fourth to seventh centuries. The Coptic spellings are attested in documents dated to the sixth-eighth century (Theban texts <em>KSB</em> 3.1332.2; <em>P.Lond</em> 4.1419 (Greek); <em>O.Medin.HabuCopt</em> 46; <em>O.Theb.Copt</em> 31), with the exception of ⲡⲉⲥⲛⲧⲉ found in <em>P.Mich.Copt</em> 6.1, the dating of which spans from the fourth to the sixth centuries. However, a Πεσόνθις is attested on a mummy label dated as early as the second-third centuries (<em>T.Mom.Louvre</em> 973).
+</p>
+<p id="p22">
+5 If, as the context would suggest, this ostrakon is to be dated to the fourth century, it may be the earliest known reference to πάκτον in a Greek or Coptic document. Greek references do not occur until the sixth century (<em>SB</em> 3.6266, of 538; <em>P.Lond</em> 5.1727, of 583/4). The Coptic references in Förster, <em>Wörterbuch</em> 601-02, do not include any before the seventh century, although many are undated or only approximately dated. For the meaning of the term, see most recently Wegner 2016: 191-2.
+</p>
+<p id="p23">
+6 The first word of the line could be referring to the <em>pakton</em> as genitive or attribute, in which case one would need a nu as the first letter. However, we have not been able to find any appropriate word in the reverse dictionary of Coptic (M-.O. Strasbach, B. Barc, <em>Dictionnaire inversé du copte</em>, Louvain 1983). The only noun ending with ϣⲓⲛ is ⲁⲣϣⲓⲛ, “lentil”, but the letter before shai cannot in any case be a rho. Alternatively, the word could be connected to the following noun phrase as a conjugation base, but we do not know any form ending with ϣⲓⲛ.
+</p>
+<div class="page-columns page-full"><p id="p24">
+The name Ⲕⲓⲣⲉ and other Coptic variants are unattested prior to the sixth century, but the Greek name Κῦρος appears over 30 times in fourth-century documents, including several ostraka and inscriptions from the Western Desert (<em>O.Waqfa</em> 66.7; <em>O.Douch</em> 3.222.2 and 346.2;  <em>SB</em> 20.14799.2 [Shams ed-Din]; <em>SB</em> 20.14850.1 and 20.14853.1 [Bagawat]). Since variants of the name Kyros contain the morpheme “apa” (Derda and Wipszycka 1994: 53), the reading ⲁⲡⲁⲕⲓⲣⲉ is also a possibility. However, Kire’s appearance in the same context as apa Alexandros may indicate that he too represented an ecclesiastical institution. Possibly apa Kire, whom Pesente was not supposed to trouble, was a monastic superior and the letter concerned rent on monastic property. The addressee of the letter may have interceded on behalf of Pesente.
+</p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;513</span></div></div>
+<p id="p25">
+7 ⲛⲏϥ (Sahidic ⲛⲁϥ) should be treated here most probably as a <em>dativus ethicus</em>.
+</p>
+<p id="p26">
+The letter mu after ⲁⲩⲱ gives a negative jussive here.
+</p>
+<p id="p27">
+ⲧⲟⲝⲉ is the Greek δοκέω, meaning “zweckmässig erscheinen, einsichtig sein”, see Förster, <em>Wörterbuch</em> pp.&nbsp;206-207, with citations of analogous phrases in <em>P.Lond.Copt.</em> 1.479.v.3 (ⲛⲡⲣⲧⲉⲥⲇⲟⲝⲏ ⲛⲁⲕ) and 1.1175.3 (ⲙⲡⲣⲧⲣⲉⲥⲇⲟⲝⲏ ⲛⲁⲕ ⲉⲧⲓ ⲛⲉϭⲁⲙⲟⲩⲗ ⲛⲕⲉⲗⲁⲁⲩ).
+</p>
+<p id="p28">
+8–9 The text at the start of these lines is extremely faded.
+</p>
+<p id="p29">
+8 ⲁⲡⲁⲣⲁⲅⲉ for the Sahidic ⲉ-ⲡⲁⲣⲁⲅⲉ. ⲙⲙⲉϥ (Sahidic ⲙⲙⲁϥ) introduces a direct object.
+</p>
+<p id="p30">
+9 ⲟⲩϫⲁϊ (literally “health”) seems to be an abbreviated standard epistolary formula ⲟⲩϫⲁⲓ ϩⲙ ⲡϫⲟⲉⲓⲥ, “Farewell”.
+</p>
+</div>
+<hr>
+<div id="ost-2" class="page-columns page-full">
+<p><strong>2</strong>. Account of wheat and must. 354/5, 369/70, or 384/5. (<a href="#plt-10.2a-b" class="quarto-xref">Plate&nbsp;<span>10.2</span></a>)<br>
+Inv. 7. Area B, room B3, DSU10.<br>
+9.5 x 13.2 cm; complete. Text on both sides, oblique to the wheel-marks.<br>
+Fabric: A1a with exterior cream slip.</p>
+<section id="convex-side" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="convex-side">Convex side</h4>
+<table class="table-borderless caption-top table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 47%">
+<col style="width: 47%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>ιβS/ ἰνδικτίονος ὑπὲρ λό-</td>
+<td>“12th indiction, on account</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>γου διαφόρου σίτ(ου) κάγ(κελλος) α</td>
+<td>of interest, 1 cancellus (art.) of wheat.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>ιγ/ ἰνδικτίονος μάτ(ια) β</td>
+<td>13th indiction, 2 matia</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>σὺν δαπάνης καὶ</td>
+<td>including expense, and</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>διαφόρου σίτ(ου) κάγ(κελλοι) ε</td>
+<td>for interest, 5 cancelli of wheat,</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>μάτ(ια) ζ τοπικῷ</td>
+<td>7 matia by the local measure.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>ὥστ’ εἶναι τῶν δύο</td>
+<td>Total of the two</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>ἰνδικτιόν(ων) κάγ(κελλοι) ϊ</td>
+<td>indictions, 10 cancelli,</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>μάτ(ια) ιζ.</td>
+<td>17 matia.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>(ὧν) εἰς τὴν οἰκίαν</td>
+<td>From which: to the house</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>σίτ(ου) κάγ(κελλοι) δ</td>
+<td>4 cancelli of wheat.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>ὁμοί(ως) κάγ(κελλοι) β</td>
+<td>Likewise, 2 cancelli.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>εἰς Μῶθιν</td>
+<td>To Mothis,</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>κάγ(κελλοι) β</td>
+<td>2 cancelli.</td>
+</tr>
+</tbody>
+</table>
+<div id="plt-10.2a-b" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.2a-b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="plt-10.2a-b" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="plt-10.2a" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-plt figure">
+<div aria-describedby="plt-10.2a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.2a.jpg" class="lightbox" data-gallery="plt-10.2a-b" title="Plate&nbsp;10.2&nbsp;(a): Greek ostrakon (inv. 7) from room B3. Convex side."><img src="assets/images/chapter-10/plt-10.2a.jpg" title="Pl. 10.2a: Greek ostrakon (inv. 7) from room B3. Convex side." class="img-fluid figure-img" data-ref-parent="plt-10.2a-b"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-plt" id="plt-10.2a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Greek ostrakon (inv. 7) from room B3. Convex side.
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="plt-10.2a-b" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="plt-10.2b" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-plt figure">
+<div aria-describedby="plt-10.2b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.2b.jpg" class="lightbox" data-gallery="plt-10.2a-b" title="Plate&nbsp;10.2&nbsp;(b): Greek ostrakon (inv. 7) from room B7. Concave side."><img src="assets/images/chapter-10/plt-10.2b.jpg" title="Pl. 10.2b: Greek ostrakon (inv. 7) from room B7. Concave side." class="img-fluid figure-img" data-ref-parent="plt-10.2a-b"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-plt" id="plt-10.2b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Greek ostrakon (inv. 7) from room B7. Concave side.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.2a-b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.2: Greek ostrakon (inv. 7) from rooms B3 and B7.
+</figcaption>
+</figure>
+</div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;515</span></div></div>
+</section>
+<section id="concave-side" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="concave-side">Concave side</h4>
+<table class="table-borderless caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 47%">
+<col style="width: 48%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>εἰς τὰ κάστρα κάγ(κελλοι) δ</td>
+<td>To the camp, 4 cancelli.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>γί(νονται) ὁμοῦ κάγ(κελλοι) ιβ</td>
+<td>Total altogether, 12 cancelli.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(ὧν) ἔσχεν καγ(κέλλους) ια μάτ(ια)</td>
+<td>Out of which he got 11 canc., 5 matia; left</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>ε λοιπὲ παρ’ ἐμοὶ σίτ(ου)</td>
+<td>in my hands, of wheat</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>τοπικῷ μάτ(ια) ιθ</td>
+<td>19 matia by local standard.</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>ὑπὲρ γλεύκ(ους) κερ(άμια) ϛ</td>
+<td>For must, 6 keramia.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>λοιπὲ γλεύκ(ους) κερ(άμια) ε</td>
+<td>Balance of must, 5 keramia.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>ει . . . .</td>
+<td>To Mothis (?).”</td>
+</tr>
+</tbody>
+</table>
+<table class="table-borderless small-font caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>2 σιτ καγ’</td>
+<td>3 ματ’</td>
+<td>4 l. δαπάνῃ δ ex δι</td>
+<td>5 σιτ καγ’</td>
+<td>6 ματ’</td>
+</tr>
+<tr class="even">
+<td>8 ινδικτιο<sup>ν</sup> καγ’</td>
+<td>9 ματ’ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10 Ϩ·</td>
+<td>11 σιτ καγ’</td>
+<td>12 ομοī καγ’</td>
+<td>14 καγ</td>
+</tr>
+<tr class="odd">
+<td>15 καγ’</td>
+<td>16 γι/ καγ’</td>
+<td>17 Ϩ· καγ’ ματ’ ε ex ζ</td>
+<td>18 l. λοιπὰ σιτ</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>19 ματ’</td>
+<td>20 γλευκ κερ’</td>
+<td>21 γλευκ κερ’</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p id="p31">
+2, 5 λόγου διαφόρου: See <em>P.Harr</em>. 1.86.5, where it is clearly a monthly interest rate on a loan. The figure presumably represents income to the writer’s employer from a loan in wheat.
+</p>
+<p id="p32">
+4 There may be additional traces at the start, probably washed out. For δαπάνη which refers to expenditures for services by estate staff, see <em>KAB</em>, pp.&nbsp;32–35.
+</p>
+<p id="p33">
+6 Sc. μέτρῳ. For the “local” measure, see most recently <em>O.Kellis</em> 93.3n. with bibliography.
+</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;516</span></div></div>
+<p id="p34">
+8 The amounts in lines 1-7 total to only 6 cancelli, 9 matia, not the 10 cancelli, 17 matia given in lines 8–9, let alone the 11 cancelli, 5 matia stated below (see note to line 16). One must apparently suppose another ostrakon on which additional amounts were listed.
+</p>
+<p id="p35">
+15 For “the camp,” see <em>KAB</em>, p.&nbsp;73, and <em>O.Kellis</em> 102.5n. The reference is presumably to the principal base of the unit at Trimithis (see Introduction).
+</p>
+<p id="p36">
+16 This line is the total of lines 10 to 15. A total of 12 cancelli had been sent to various destinations, even though “he” (as is explained in lines 17–19) received only 11 cancelli, 5 matia, leaving the writer with a balance on hand of 19 matia. The standard used is the expenditure mation, here called the local measure, of 23 or (here) 24 matia per artaba; see <em>KAB</em>, pp.&nbsp;47–48. The account suggests, however, that the writer was starting with the receipts totalled in lines 8–9, or 10 cancelli, 17 matia, which is 12 matia less than the figure he cites later.
+</p>
+<p id="p37">
+17 The third person singular may refer to the landlord, who got the credit for the amount because of the deliveries. Although it is not impossible that we should correct to ἔσΧον (first person singular), the fragmentary character of the account makes such corrections hazardous.
+</p>
+<p id="p38">
+18 The phrase λοιπε παρ’ ἐμοί, meaning “in my hands”, seems to imply that the remaining 19 matia still need to be paid or delivered. For the spelling λοιπὲ see, e.g., <em>O.Kellis</em> 143r.5.
+</p>
+<p id="p39">
+22 ε<span class="underdot">ἰς Μῶθ</span>(ιν) is possible, but only the faintest traces of the last four letters are preserved.
+</p>
+</section>
+</div>
+<hr>
+<div id="ost-3" class="page-columns page-full">
+<p><strong>3.</strong> Account of donkeyloads. Fourth century. (<a href="#plt-10.3" class="quarto-xref">Plate&nbsp;<span>10.3</span></a>)<br>
+Inv. 10. Area A, room A25, clearance.<br>
+7.5 x 7.4 cm; complete? Text on convex side.<br>
+Fabric: B10.</p>
+<p id="p40">
+Traces of what appears to be ink on the upper edge (above the omicron in Δείον) may indicate that the text was originally longer and we are left with its last four lines. The beginning of the first two lines and the middle of the fourth line are almost completely faded and only traces are visible. Most of the names are read with doubts. The way the words are spaced out in the lines looks as if the scribe had written the number of donkeyloads in each line prior to putting down the names.
+</p>
+<table class="table-borderless caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 95%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><span class="underdot">Τιθ</span>οῆς <span class="underdot">Ψάιτ</span>(ος) Δ<span class="underdot">ε</span>ίου κτῆ(νος) α</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="underdot">Π</span><span class="underdot-space">◌̣</span><span class="underdot-space">◌̣</span><span class="underdot-space">◌̣</span><span class="underdot">ις</span> Βη<span class="underdot">σᾶτ</span>(ος) κτῆ(νος) α</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Ψύρος Π<span class="underdot">εθεῦτ</span>(ος) κτῆ(νος) α</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Πτολ<span class="underdot">ᾶς</span> [ ± 4 ] κτῆ(νος) α</td>
+</tr>
+</tbody>
+</table>
+<table class="table-borderless small-font caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>1 ψαι<sup>τ</sup></td>
+<td>κτη<sup>/</sup></td>
+<td>2 βησα<sup>τ</sup> κτη<sup>/</sup></td>
+<td>3 πεθευ<sup>τ</sup> κτη<sup>/</sup></td>
+<td>4 l. Πτολλᾶς κτη<sup>/</sup></td>
+</tr>
+</tbody>
+</table>
+<p>“Tithoes son of Psais, grandson of Deios, 1 donkeyload; P--is son of Besas, 1 donkeyload; Psyros son of Petheus, 1 donkeyload; Ptolas son of --, 1 donkeyload.”</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;517</span></div></div>
+<div id="plt-10.3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Plate&nbsp;10.3: Greek ostrakon (inv. 10) from the clearance of room A25."><img src="assets/images/chapter-10/plt-10.3.jpg" title="Pl. 10.3: Greek ostrakon (inv. 10) from the clearance of room A25." class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.3: Greek ostrakon (inv. 10) from the clearance of room A25.
+</figcaption>
+</figure>
+</div>
+<p id="p41">
+Each line gives a name and patronymic followed by the abbreviation HTL( ), to be expanded as κτῆ(νος), and the number 1. A somewhat more informative account of donkeyloads can be found in O.Kellis 102 (and cf.&nbsp;103), where κτῆ(νος) should be rendered as “donkey” throughout. Camels in the ostraka from the Oasis are always specifically designated as such. It seems unlikely that the account refers to the delivery of donkeys themselves, but rather to donkeyloads of some goods known to the writer but not mentioned here.
+</p>
+<p id="p42">
+1 Tithoes son of Psais is a common enough combination of names to justify adding a grandfather’s name. Deios is frequent, but not attested in the Oasis.
+</p>
+<p id="p43">
+2 The name is illegible.
+</p>
+<p id="p44">
+3 Psyros is a rare name found in the Oasis (only <em>P.Kellis</em> 1 G. 33.1, but two letters uncertain). Syros, however, is fairly common.
+</p>
+<div class="page-columns page-full"><p id="p45">
+4 Ptollas, normally spelled with two lambdas, is not uncommon, but thus far absent from the Western Desert.
+</p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;518</span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;518</span></div></div>
+</div>
+<hr>
+<div id="ost-4" class="page-columns page-full">
+<p><strong>4.</strong> List of names. Second half of fourth century. (<a href="#plt-10.4" class="quarto-xref">Plate&nbsp;<span>10.4</span></a>).<br>
+Inv. 1007. Area B, room B19, DSU165.<br>
+6.5 x 8.3 cm; complete. Text on convex side.<br>
+Fabric: A1b.</p>
+<table class="table-borderless caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 95%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>Ψάις Λουια Πεκύ(σιος)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Πεκῦσις ἀδελφ(ός)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Γενα Κόρακος</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Γενα Τιθοῆτος</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Βῆς Φιλοτίμου</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>[[Ψ<span class="underdot">ά</span>ι<span class="underdot">ς</span> <span class="underdot">Ἀν</span>ο<span class="underdot">ύ</span>φ<span class="underdot">ιος</span> ]]</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Βελλῆς Λη<span class="underdot">π</span>( )</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Χάρης Ζα( )</td>
+</tr>
+</tbody>
+</table>
+<table class="table-borderless caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>1 πεκυ/</td>
+<td>2 αδελφ/</td>
+<td>7 ληπ/</td>
+<td>8 ζα/</td>
+</tr>
+</tbody>
+</table>
+<p>“Psais son of Louia grandson of Pekysis; Pekysis, brother; Gena son of Korax; Gena son of Tithoes; Bes son of Philotimos; Psais son of Anouphis; Belles son of Lep–; Chares son of Za–.”</p>
+<div id="plt-10.4" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Plate&nbsp;10.4: Greek ostrakon (inv. 1007) from room B19."><img src="assets/images/chapter-10/plt-10.4.jpg" title="Pl. 10.4: Greek ostrakon (inv. 1007) from room B19." class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.4: Greek ostrakon (inv. 1007) from room B19.
+</figcaption>
+</figure>
+</div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;519</span></div></div>
+<p id="p46">
+There is a striking coincidence between the names in this list and those found in the ostraka excavated in the West Church at Kellis, especially the group of accounts in money and in kind in <em>O.Kellis</em> 109–122. See the following notes for details. Although many of the names are commonplace, this cannot be said of Philotimos (line 5). On the basis of the numbers of talents in some of these texts, this group is certainly to be dated after the Constantian monetary reform of ca. 353 and probably in the third quarter of the century. This dating is consistent with the ostrakon’s archaeological context. The stratigraphic unit is a vault collapse with some dumped material, so it could have been used as a chinking sherd (pre-construction) or (more likely) discarded together with some occupational refuse. It seems to be related to the pottery workshop phase, which is the later of the two phases distinguished in room B19 (see <a href="6_west-complex.html#sec-6.3" class="quarto-xref"><span>Section 6.3</span></a> and <a href="6_west-complex.html#sec-6.7" class="quarto-xref"><span>Section 6.7</span></a>).
+</p>
+<p id="p47">
+1 Ψάις Λουια Πεκύ(σιος): see <em>O.Kellis</em> 113.
+</p>
+<p id="p48">
+2 Πεκῦσις ἀδελφ(ός): cf.&nbsp;possibly <em>KAB</em> 1128.
+</p>
+<p id="p49">
+3 Γενα Κόρακος: see <em>O.Kellis</em> 114, 282.
+</p>
+<p id="p50">
+5 Βῆς Φιλοτίμον: see <em>O.Kellis</em> 110, 115.
+</p>
+<p id="p51">
+7 Βελλῆς: see <em>O.Kellis</em> 115, 117, 118, and 119.8; Ληπ( ): see Ληπι( ) in <em>O.Kellis</em> 137.7 and ⲗⲉⲡⲟⲣⲓⲟⲥ in <em>P.Kellis</em> 5 C. 43. Λην( ) seems less probable and yields no satisfying parallels.
+</p>
+<p id="p52">
+6 Ψάις Ἀνούφιος is attested in <em>KAB</em> 578, 1100 and 1158.
+</p>
+<p id="p53">
+8 Χάρης <em>O.Kellis</em> 113; Ζα( ): possible abbreviation of Ζακαῶνος: <em>KAB</em> 148–9, 336, 1098; <em>O.Kellis</em> 115.1; 282.1.
+</p>
+</div>
+<hr>
+<div id="ost-5" class="page-columns page-full">
+<p><strong>5.</strong> Receipt for <em>annona</em>. 354/5 or 369/370. (<a href="#plt-10.5" class="quarto-xref">Plate&nbsp;<span>10.5</span></a>).<br>
+Inv. 9; Area B, room B4, DSU15 (dump layer).<br>
+14.1 x 10.2 cm; complete. Text on convex side.<br>
+Fabric: A1b with exterior cream slip.</p>
+<table class="table-borderless caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 95%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>Ἐμέτρησεν <span class="underdot">ἀρτ</span>(άβας) <span class="underdot">η</span> ϊγ (ἰνδικτίονος) Εὐτύχ<span class="underdot">ης</span> ὑπὲρ δεσ-</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>ποτικῆ<span class="underdot">ς</span> φυτϊας Μ<span class="underdot">ώθεως</span> κριθῆς</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>δημοσί(ῳ) μέτρῳ ἀρτάβας ὀκτώ, (γίνονται) (ἀρτάβαι) <span class="underdot">η</span></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>[τ]ῆ<span class="underdot">ς</span> ιγ ἰνδικτίονος ε<span class="underdot">ἰς</span> ἀννῶναν τ<span class="underdot">ῶν</span></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>ἐ<span class="underdot">ν</span> <span class="underdot">Μώ</span>θι <span class="underdot">ἀγγαρε</span>υόντων ἱπποτοξο<span class="underdot">τῶν</span>.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="underdot">ἔ̣γρα</span>ψα τὴν ἀποχὴν Αὐρ<span class="underdot">ή</span>λιος Λεωνί<span class="underdot">δας</span></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="underdot">ἄρξ</span>(ας) ἐπιμελητής.</td>
+</tr>
+</tbody>
+</table>
+<table class="table-borderless small-font caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>1 αρτ ϊγS</td>
+<td>2 οὐσϊας</td>
+<td>3 δημοσι γι/ ⨪</td>
+<td>4 ϊνδικτιονος</td>
+<td>5 ϊπποτοξοτων</td>
+<td>7 αρξ/</td>
+</tr>
+</tbody>
+</table>
+<p>“Eutyches paid 8 art., 13th ind. for the imperial estate of Mothis, eight artabas of barley by public measure, total, 8 art., for the 13th indiction for the <em>annona</em> of the horsearchers on duty at Mothis (?). I, Aurelius Leonidas, ex-magistrate and epimeletes, wrote the receipt.”</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;520</span></div></div>
+<div id="plt-10.5" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Plate&nbsp;10.5: Greek ostrakon (inv. 9) from room B4."><img src="assets/images/chapter-10/plt-10.5.jpg" title="Pl. 10.5: Greek ostrakon (inv. 9) from room B4." class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.5: Greek ostrakon (inv. 9) from room B4.
+</figcaption>
+</figure>
+</div>
+<p id="p54">
+1 Εὐτύχης: <em>P.Kellis</em> 1 G. 60.3.
+</p>
+<p id="p55">
+1–2. Mention of imperial land has not been found in other documents from the Oasis. Since the amount and indiction are repeated in the course of the text, this phrase may be more or less synonymous with εἰς ἀννώναν in line 4.
+</p>
+<p id="p56">
+2–3 For artabas of barley by public measure, see <em>O.Trim</em>. 10.3–4 (conjecture). See also <em>O.Douch</em> 1.39 (corr. in <em>O.Douch</em> 2, p.&nbsp;87), as well as <em>P.Kellis</em> 1 G. 79.8–9, where it also appears in connection with the military (a <em>dromedarius</em>).
+</p>
+<p id="p57">
+4–5 For the garrison in question, see Introduction. The present ostrakon is the first evidence that these troops were horse-mounted archers.
+</p>
+<p id="p58">
+For the phrase τῶν ἐν τῇ πόλει ἀγγαρευόντων see <em>P.Cair.Masp</em>. 1.67009; also <em>P.Grenf</em>. 2.95 (<em>Sel. Pap</em>. II 388) has <em>annona</em> for Scythians ἀγγαρεύοντες at a monastery. For the reading and uses of the word, see recently Worp 2012. For ἀγγαρεία as a soldier’s duty or being stationed in a place, see <em>LSJ Revised Suppl</em>., s.v., citing <em>Cod.Just</em>. 12.37.19.
+</p>
+<div class="page-columns page-full"><p id="p59">
+6–7 An Aurelius Leonidas has not occurred before in the documents from the Oasis. The (Doric) form Λεωνίδας is attested several times, but never in the fourth century. Other versions of the name are more common, especially different spelling variants of Λεωνίδης, occurring over 500 times in papyri. Notably, an Αὐρήλιος Λεωνίδης is strategos and exactor of the Great Oasis in 369/70, the precise year to which our ostrakon may be dated, in <em>SB</em> 18.13252 (repr. <em>SB</em> 1.4513). Also in abbreviated form . . . ος Λεωνίδ(ου) occurs in <em>O.Douch</em> 4.399 (Kysis, fourth century).
+</p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;521</span></div></div>
+<p id="p60">
+6 ἔγραψα τὴν ἀποχὴν: Frequent in the Kellis documents, e.g., <em>O.Kellis</em> 1–3; 53; <em>P.Kellis</em> 1 G. 29.6–7. Other possibilities like ἐξέδωκα τὴν ἀποχήν (<em>O. Strasb</em>. 1.475 (fourth–fifth c., Thebaid)) or ἔδωκεν as in <em>P.Kellis</em> 1 G. 62, ἔδωκεν as in <em>O.Kellis</em> 65.6 or δέδωκεν as in <em>O.Kellis</em> 67.3–4 are less likely.
+</p>
+<p id="p61">
+7 For title of ἄρξας, see Worp 1997a. Ex-archontes signing tax receipts in Kellis: e.g., <em>O.Kellis</em> 1–5, etc.
+</p>
+<p id="p62">
+ἐπιμεληταί bringing barley to Mothis are also attested in <em>O.Kellis</em> 102.7–10, an account of transport animals: εἰς Μῶθ(ιν) ὁμοί(ως) Ἀπόλλονι ἐπιμελητ(ῇ) κτῆ(νος) α – to Mothis, likewise, for Apollon the <em>epimeletes</em>, 1 donkey.
+</p>
+<p id="p63">
+Barley for the <em>annona</em> is also mentioned in <em>O.Trim</em>. 1.329 (350–370).
+</p>
+</div>
+<hr>
+<div id="ost-6" class="page-columns page-full">
+<p><strong>6.</strong> Receipt for wheat. 358/9, 373/4 or 388/9. (<a href="#plt-10.6" class="quarto-xref">Plate&nbsp;<span>10.6</span></a>)<br>
+Inv. 28, Area B, room B1, BF8 (embedded in the plaster of a niche), FN 13.<br>
+6.5 x 5.4 cm; complete. Text on convex side, perpendicular to the wheel marks.<br>
+Fabric: A1b.</p>
+<table class="table-borderless caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 95%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><span class="underdot">Ἐ</span>δεξάμην παρ<span class="underdot">ὰ</span> <span class="underdot">Τ</span>ου</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Ψ<span class="underdot">ε</span>μπνούθου <span class="underdot">Ψάι</span>(τος) <span class="underdot">πυ</span>-</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="underdot">ροῦ</span> ε <span class="underdot">ἀρτ</span>ά<span class="underdot">βας</span> καγ(κέλλους) εἴ́<span class="underdot">κοσι</span></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>ὀκτὼ ὑπὲρ <span class="underdot">τ</span>οῦ ἀδελφ<span class="underdot">οῦ</span></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Παυσανίου <span class="underdot">καὶ</span> β/ ἰνδ<span class="underdot">ι</span>κ(τίονος).</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>σεσημίωμαι traces?</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Πεκ<span class="underdot">ύσ</span>ιος.</td>
+</tr>
+</tbody>
+</table>
+<table class="table-borderless small-font caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>2 ψαι</td>
+<td>3 κα<span class="overlined">γ</span></td>
+<td>4 ινδι<sup>κ</sup></td>
+<td>6 l. σεσημείωμαι</td>
+</tr>
+</tbody>
+</table>
+<div id="plt-10.6" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.6.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Plate&nbsp;10.6: Greek ostrakon (inv. 28) from room B1."><img src="assets/images/chapter-10/plt-10.6.jpg" title="Pl. 10.6: Greek ostrakon (inv. 28) from room B1." class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.6: Greek ostrakon (inv. 28) from room B1.
+</figcaption>
+</figure>
+</div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;522</span></div></div>
+<p>“I received from Tou son of Psempnouthes, grandson of Psais, twenty-eight cancelli artabas of wheat for our brother Pausanias, and for the second indiction. I, NN son of Pekysis, have signed.”</p>
+<p id="p64">
+1 The proper name Του is well attested in the Dakhla Oasis (<em>P.Kellis</em> 1 G. 34 and <em>KAB</em> 604, <em>O.Kellis</em> 1, 97, 109, 111, 287, <em>O.Trim</em>. 205, 249). We have excluded the genitive article for reasons of syntax.
+</p>
+<p id="p65">
+2 It appears that there was already a defect in the surface at the time of writing.
+</p>
+<p id="p66">
+4-5 The name Pausanias is common at Kellis, cf.&nbsp;<em>O.Kellis</em> 57.5n. with references. The appearance of a Pausanias in <em>O.Kellis</em> 137 and 255, from the West Church, is noteworthy.
+</p>
+<p id="p67">
+If καί is indeed a conjunction, it is oddly placed. “Brother” in this instance probably means “colleague,” as often.
+</p>
+</div>
+<hr>
+<div id="ost-7" class="page-columns page-full">
+<p><strong>7.</strong> Receipt for chickens. 352/3, 367/8 or 382/3. (<a href="#plt-10.7" class="quarto-xref">Plate&nbsp;<span>10.7</span></a>). Inv. 25. Area B, room B1, DSU14.<br>
+8.6 x 6.9 cm; complete. Text on convex side, parallel to the wheel marks.<br>
+Fabric: A1a.</p>
+<table class="table-borderless caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 95%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>Δέδωκεν Λουκρ<span class="underdot">ήτις</span></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>ὀρνίθια ἕξ, γί(νεται) ὀρ(νίθια) ϛ ὑπ(ὲρ) ἑν<span class="underdot">δε</span>κ<span class="underdot">ά</span> -</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="underdot">της</span> ἰνδικτίο<span class="underdot">νος</span>. <span class="underdot">σ</span>ε<span class="underdot">ση</span>μ<span class="underdot">ί</span> -</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>ωμαι Τιμόθεος.</td>
+</tr>
+</tbody>
+</table>
+<table class="table-borderless small-font caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 34%">
+<col style="width: 33%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>1 l. Λουκρήτιος</td>
+<td>2 <span class="overlined">γ</span><sup>ι</sup> ορ υπ/</td>
+<td>3-4 l. σεσημείωμαι</td>
+</tr>
+</tbody>
+</table>
+<div id="plt-10.7" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.7-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.7.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Plate&nbsp;10.7: Greek ostrakon (inv. 25) from room B1."><img src="assets/images/chapter-10/plt-10.7.jpg" title="Pl. 10.7: Greek ostrakon (inv. 25) from room B1." class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.7-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.7: Greek ostrakon (inv. 25) from room B1.
+</figcaption>
+</figure>
+</div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;523</span></div></div>
+<p>“Lucretius gave six chickens, total, 6 chickens, for the eleventh indiction. I, Timotheos, have signed.”</p>
+<p id="p68">
+1 The name Λουκρήτιος is unattested in the Oases and rare in the fourth century.
+</p>
+<p id="p69">
+2 Kellis texts use both ὄρνεον and ὀρνίθιον, apparently without particular distinction; the word is sometimes abbreviated, leaving one in doubt about the correct form. For the first of these written in full, cf.&nbsp;<em>O.Kellis</em> 61 and 62; for the second, <em>O.Kellis</em> 64 and 65.
+</p>
+<p id="p70">
+The 11th indiction likely corresponds to 352/3, 367/8 or 382/3 (see <a href="./1_introduction.html">Introduction</a>).
+</p>
+<p id="p71">
+4 Individuals named Timotheos occur in the Kellis documentation with some frequency. The signer here could well be the same as in <em>O.Kellis</em> 79.
+</p>
+</div>
+<hr>
+<div id="ost-8" class="page-columns page-full">
+<p><strong>8</strong>. Receipt or order concerning wheat. Ca. 330–390. (<a href="#plt-10.8" class="quarto-xref">Plate&nbsp;<span>10.8</span></a>)<br>
+Inv. 660. Area B, room B11, DSU97, FN 11 + 12.<br>
+6.1 x 6.6 cm; nearly complete. Text on convex side.<br>
+Fabric: A11</p>
+<p id="p72">
+The text is complete except at left, where a small piece is lost from the upper left corner and probably a narrow piece from the entire left side.
+</p>
+<p id="p73">
+The ostrakon was found in an ashy dump layer deposited in corridor B11 after the building of the church complex, when B11 functioned as a street. On the basis of numismatic evidence, the dump layers in this space can be dated to a period from ca. the 330s to ca. the 380s.
+</p>
+<p id="p74">
+This small and fragmentary ostrakon is of interest for its mention of a <em>praepositus</em>, presumably of the ala stationed in the Oasis rather than the <em>praepositus pagi</em>. He appears in the genitive, and probably about 8 letters or a little more stood before what we can read and restore. It is not obvious what most suitably fills that lacuna—whether the wheat was received from him, or according to his orders, or was to be delivered to his agent, in particular.
+</p>
+<table class="table-borderless caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 95%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;± 11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;] . υ<span class="underdot">ρ</span> <span class="underdot">β</span> . . . μου</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>πραι]ποσίτου σίτ(ου) (ἀρτάβας) β.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;᾽]ωσηπ σεσημίωμαι.</td>
+</tr>
+</tbody>
+</table>
+<table class="table-borderless small-font caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>2 σι<sup>τ</sup>⨪</td>
+<td>3 l. σεσημείωμαι</td>
+</tr>
+</tbody>
+</table>
+<p>“. . . , <em>praepositus</em>, 2 artabas of wheat. I, Joseph, have signed.”</p>
+<p id="p75">
+1 Τhere are too many letters for κυρίου μου, and no name ending in -μου, the most obvious reading at the end of the line, fits the text.
+</p>
+<p id="p76">
+2 This line is the evidence that no more than 4 letters need to be lost at left here, and from this the probable lacuna in line 1 can be estimated.
+</p>
+<p id="p77">
+3 There was probably room for more to have been written. Possibilities are that the amount of grain was given a second time; that the name was preceded with Αὐρ(ήλιος); or that the signature was indented.
+</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;524</span></div></div>
+<div id="plt-10.8" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.8-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.8.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Plate&nbsp;10.8: Greek ostrakon (inv. 660) from room B11."><img src="assets/images/chapter-10/plt-10.8.jpg" title="Pl. 10.8: Greek ostrakon (inv. 660) from room B11." class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.8-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.8: Greek ostrakon (inv. 660) from room B11.
+</figcaption>
+</figure>
+</div>
+</div>
+<hr>
+<div id="ost-9" class="page-columns page-full">
+<p><strong>9</strong>. Receipt for money. 264/5 or 232/3. (<a href="#plt-10.9" class="quarto-xref">Plate&nbsp;<span>10.9</span></a>)<br>
+Inv. 830. Area B, room B23, DSU147, FN 94.<br>
+11.4 x 17 cm; complete. Text on convex side.<br>
+Fabric: A1b.</p>
+<p id="p78">
+The document is of interest for its early date and for the mention of Pmoun Berri, a toponym that may be the ancient name of the site (see Introduction).
+</p>
+<p id="p79">
+This is the earliest of the Ἁin el-Gedida ostraka. The sinusoidal curve following ιβ in l. 1 is rather the symbol for a year than an indiction, as the 50 drachmas in l. 5 would have been a negligible sum by the mid-fourth century, when the indiction cycle becomes popular in documents from the Oasis. In fourth-century documents a single regnal date omitting the numerals for emperors other than the senior one<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> is first attested under the First Tetrarchy and becomes visible from 308 onwards (according to this practice, year 11 could belong to the reign of Constantine I [316/7], or just possibly that of Valentinian I [373/4], although we have no clear examples in the Oasis that late), but once again neither of these is possible in our text given the sum of 50 drachmas for a year’s worth of rent. Therefore, ιβS must be a regnal year in the third century: the 12th year of Gallienus (264/5) or even as early as the 12th year of Severus Alexander (232/3). A date in the reign of Diocletian (295/6) is less likely. For a similar receipt for 40 drachmas for the fourth year, see <em>O.Kellis</em> 53 dated to the third century after 212.
+</p>
+<div class="page-columns page-full"><p id="p80">
+The ostrakon was found in DSU147, a deposit immediately above the floor of room B23, which is dated on the basis of numismatic evidence to the early fourth century: coins from 314–315 (inv. 1038) and 316 (inv. 1044), see pp.&nbsp;505 and 506). The ostrakon may have been  originally embedded in the floor and therefore attributable to the earlier phase of the room when it still functioned as part of the temple. The coins, on the other hand, might have been deposited on the floor in a later phase, when the temple had already been turned into a pottery workshop (see <a href="6_west-complex.html#sec-6.7" class="quarto-xref"><span>Section 6.7</span></a>).
+</p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;525</span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;526</span></div></div>
+<div id="plt-10.9" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.9-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.9.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Plate&nbsp;10.9: Greek ostrakon (inv. 830) from room B23."><img src="assets/images/chapter-10/plt-10.9.jpg" title="Pl. 10.9: Greek ostrakon (inv. 830) from room B23." class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.9-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.9: Greek ostrakon (inv. 830) from room B23.
+</figcaption>
+</figure>
+</div>
+<table class="table-borderless caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 95%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>ιβ (ἔτους) Φαρμ(οῦθι) κ<ruby>θ<rp>(</rp><rt>—</rt><rp>)</rp></ruby> ἔσχον</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="underdot">Παύλ</span>ου υἱο(ῦ) Μέρσιος ἀπὸ</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>γε<span class="underdot">ω</span>ργ(ίου) Πμοῦν Βερ<span class="underdot">ρι</span></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>γενή(ματος) ια (ἔτους) ἀργυρί<span class="underdot">ου</span></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>δραχμ<span class="underdot">ὰς</span> πεντήκον[τα]</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>(γίνονται) (δραχμαὶ) ν. α<span class="underdot">ἴγρα</span>(ψα) <span class="underdot">Αὐρ</span>(ὴλιος)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Α<span class="underdot">μ</span>..ν( )</td>
+</tr>
+</tbody>
+</table>
+<table class="table-borderless small-font caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 16%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>1 ιβS// φαρ<sup>μ</sup></td>
+<td>2 l. Παῦλος υι<sup>o</sup></td>
+<td>3 γεωρ<ruby>γ<rp>(</rp><rt>—</rt><rp>)</rp></ruby></td>
+<td>4 γενη<sup>/</sup>ια<span class="underdot">S</span>//</td>
+<td>6 ⌡ S l. ἒγρα(ψα)</td>
+</tr>
+</tbody>
+</table>
+<p>“12th (year), Pharmouthi 29. I received from Paulos son of Mersis, from the <em>georgion</em> of Pmoun Berri, for the crop of the 11th (year), fifty drachmas of money, total, 50 dr. Aurelius Am-- wrote (the receipt).”</p>
+<p id="p81">
+2 For a third-century occurrence of the name Paulos in the Oasis, see <em>O.Kellis</em> 21.1–2. We see no clear traces of any preposition before the name, but the name is slightly indented.
+</p>
+<p id="p82">
+3 γεώργιον is generally taken to mean “field”, but often “farm” or “farmstead” is clearly more appropriate. A <em>georgion</em> can have a name, as in, e.g., <em>P.Ross.Georg.</em> 3.40.7 and <em>SPP</em> 20.86.5. It may well be close to <em>epoikion</em> in meaning here.
+</p>
+<p id="p83">
+For the toponym Pmoun Berri, ‘New Well’ (from Coptic ⲃⲣⲣⲉ – new, young) see Introduction to this chapter. The toponym is attested in <em>P.Kellis</em> 1 G. 5.12 (there spelled Βερι), in <em>O.Trim.</em> 114 and in an unpublished ostrakon from Ἁin es-Sabil found in 2009, and means ‘New Well’. For more on wells and well toponyms, see <em>O.Trim.</em>, Introduction; see also Wagner 1987: 279–83.
+</p>
+<p id="p84">
+4–5 For cash rents in the third century, see Drexhage 1991, 192–248. The plot was likely planted with crops other than grain, since leases of land planted with wheat or barley consistently require the lessee to pay in kind.
+</p>
+<p id="p85">
+7 Perhaps Ἀ<span class="underdot">μμώ</span>ν(ιος)
+</p>
+</div>
+<hr>
+<div id="ost-10" class="page-columns page-full">
+<p><strong>10</strong>. Uncertain text: fragment of a draft of a contract? Fourth century. (<a href="#plt-10.10" class="quarto-xref">Plate&nbsp;<span>10.10</span></a>)<br>
+Inv. 8. Area A, room A25, clearance.<br>
+9 x 11.5 cm; broken at top left. Text on convex side, oblique to the wheel-marks.<br>
+Fabric: A1a with external cream slip.</p>
+<p id="p86">
+Although little survives of this text, “this being invalid” tends to suggest contractual language (possibly related to a divorce contract? See <em>P.Dura</em> 31 and <em>P.Oxy.</em> 6.906). In all likelihood, the beginning of line 1 represents the end of a verb in the perfect, like ἐσχηκα. But exactly what the nature of the original text was, it is impossible to say. It may have been only a draft or a memorandum concerning a contract.
+</p>
+<table class="table-borderless caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 95%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>------- ].καπερ<span class="underdot">η</span>..[</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>τ]ῇ γυναικὶ σοῦ τὴν .[</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>ταύτην ἄκυρον οὖσαν</td>
+</tr>
+</tbody>
+</table>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;527</span></div></div>
+<div id="plt-10.10" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.10.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Plate&nbsp;10.10: Detail of Greek ostrakon (inv. 8) from the clearance of room A25."><img src="assets/images/chapter-10/plt-10.10.jpg" title="Pl. 10.10: Detail of Greek ostrakon (inv. 8) from the clearance of room A25." class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.10: Detail of Greek ostrakon (inv. 8) from the clearance of room A25.
+</figcaption>
+</figure>
+</div>
+<p>“--<br>
+-- your wife --<br>
+-- this -- being invalid –”</p>
+<p id="p87">
+1 One would expect to interpret these traces as περὶ after a verb in the perfect, but the letter after the rho does not resemble an iota. A kappa is also possible, but less likely. One is tempted to read περή, or even supplement περήλυσις (as a spelling variant of περίλυσις, cancellation; see divorce contract <em>P.Cair.Masp.</em> 1.67121.25, though room is scarce)
+</p>
+<p id="p88">
+2 την.[ is rather not the beginning of a feminine name.
+</p>
+</div>
+<hr>
+<div id="ost-11" class="page-columns page-full">
+<p><strong>11</strong>. Uncertain text—a tag? Fourth century. (<a href="#plt-10.11" class="quarto-xref">Plate&nbsp;<span>10.11</span></a>) Inv. 529. Area B, room B5, DSU36. 3.2 x 4.1 cm; complete? Text on convex side, oblique to the wheel-marks. Fabric: A1.</p>
+<table class="table-borderless caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 95%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>ε υἱὸ( ) Γενα /</td>
+</tr>
+</tbody>
+</table>
+<table class="table-borderless small-font caption-top table">
+<tbody>
+<tr class="odd">
+<td>1 <sup>ν</sup>ι<sup>ο</sup></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>“5, son of Gena /”</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;528</span></div></div>
+<div id="plt-10.11" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.11-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.11.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Plate&nbsp;10.11: Greek ostrakon (inv. 529) from room B5."><img src="assets/images/chapter-10/plt-10.11.jpg" title="Pl. 10.11: Greek ostrakon (inv. 529) from room B5." class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.11-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.11: Greek ostrakon (inv. 529) from room B5.
+</figcaption>
+</figure>
+</div>
+<p id="p89">
+The meaning of ε is obscure. It may simply be a numeral representing the number of objects. Despite the lack of a numeral mark, it may stand for the fifth day of an unknown month.
+</p>
+<p id="p90">
+The two marks on either side of the iota resemble u-shaped and circular strokes rather than a dieresis. For the abbreviation of υἱός / υἱοί as <sup>υ</sup>ι<sup>ο</sup> (it is impossible to determine whether we are dealing with a singular or a plural in this case), see, e.g., <em>O.Kellis</em> 11.3; 37.2; 41.3. The raised diagonal stroke at the end cannot be an abbreviation, since Gena is written out in full. It may be the left stroke of a supralinear λ from the abbreviation <sup>λ</sup>ι for λίτραι, pounds, see <em>O.Kellis</em> 95.4. It may also be a check mark next to the name.
+</p>
+</div>
+<hr>
+<div id="ost-12" class="page-columns page-full">
+<p><strong>12</strong>. Uncertain text. Fourth century. (<a href="#plt-10.12" class="quarto-xref">Plate&nbsp;<span>10.12</span></a>) Inv. 17. Area A, room A25, clearance. 5.8 x 2.1 cm; broken at bottom, left, and right. Text on concave side.</p>
+<table class="table-borderless caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 95%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>].ⲱ..<span class="underdot">ⲁ</span>Ɩⲓ <span class="underdot">ⲉ</span>ⲧⲃⲏ[ ]ⲕⲛ[</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>--------</td>
+</tr>
+</tbody>
+</table>
+<p id="p91">
+1 Probably Coptic (ⲉⲧⲃⲏ = ⲉⲧⲃⲉ, on account of), written in an unpracticed hand. At the start of the line, an alpha, lambda, or rho.
+</p>
+<p id="p92">
+2 Speculation about these letters is probably futile; but they could represent the start of a second-person singular future verb.
+</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;529</span></div></div>
+<div id="plt-10.12" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.12-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.12.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="Plate&nbsp;10.12: Coptic ostrakon (inv. 17) from the clearance of room A25."><img src="assets/images/chapter-10/plt-10.12.jpg" title="Pl. 10.12: Coptic ostrakon (inv. 17) from the clearance of room A25." class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.12-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.12: Coptic ostrakon (inv. 17) from the clearance of room A25.
+</figcaption>
+</figure>
+</div>
+<div id="plt-10.13" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.13-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.13.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="Plate&nbsp;10.13: Upper part of niche on the north wall of room B6, with dipinti and graffito."><img src="assets/images/chapter-10/plt-10.13.jpg" title="Pl. 10.13: Upper part of niche on the north wall of room B6, with dipinti and graffito." class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.13-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.13: Upper part of niche on the north wall of room B6, with dipinti and graffito.
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="sec-10.4" class="level2 page-columns page-full" data-number="10.4">
+<h2 data-number="10.4" class="anchored" data-anchor-id="sec-10.4"><span class="header-section-number">10.4</span> Inscriptions</h2>
+<p id="p93">
+All inscriptions were discovered within the church complex. Two, painted in black ink, were executed on the walls of its anteroom (B6) and one was carved in wall plaster in the church itself (B5). They seem to be contemporary to or later than the last phase of the complex and therefore should be dated to the second half of the fourth century. The north wall of room B6 also carries figural dipinti in black ink: a bird and two fragmentary representations of ships located to the right of and slightly lower than <strong><a href="#ins-1">1</a></strong> on the whitewash frame surrounding a niche (<a href="#plt-10.13" class="quarto-xref">Plate&nbsp;<span>10.13</span></a>, <a href="#plt-10.14" class="quarto-xref">Plate&nbsp;<span>10.14</span></a>). A graffito of a ship scratched into the plaster surface is clearly later than this inscription, as it partly damages some of the letters. Only inscription <strong><a href="#ins-2">2</a></strong>, which refers to “one God”, is clearly religious in character.
+</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;530</span></div></div>
+<div id="plt-10.14" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.14-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.14.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="Plate&nbsp;10.14: Drawing of dipinti and graffiti on the north wall of room B6."><img src="assets/images/chapter-10/plt-10.14.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.14-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.14: Drawing of dipinti and graffiti on the north wall of room B6.
+</figcaption>
+</figure>
+</div>
+<div id="plt-10.15" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.15-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.15.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="Plate&nbsp;10.15: Drawing of Coptic inscription on the north wall of room B6."><img src="assets/images/chapter-10/plt-10.15.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.15-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.15: Drawing of Coptic inscription on the north wall of room B6.
+</figcaption>
+</figure>
+</div>
+<div id="plt-10.16" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.16-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.16.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="Plate&nbsp;10.16: Infrared image of Coptic inscription on the north wall of room B6."><img src="assets/images/chapter-10/plt-10.16.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.16-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.16: Infrared image of Coptic inscription on the north wall of room B6.
+</figcaption>
+</figure>
+</div>
+<div id="ins-1" class="page-columns page-full">
+<p><strong>1.</strong> Inscription in black ink. (Pls. 10.15–16)<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a><br>
+Letters ± 1.5 cm high; indistinctive majuscules.<br>
+Area B, room B6, BF73 (north wall).</p>
+<table class="table-borderless caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 95%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><span class="underdot">ⲁⲡⲟ</span>ⲗⲗⲱⲛ<span class="underdot">ⲓ</span>[ⲟⲥ ϩ]<span class="underdot">ⲓ</span>ⲧⲛ ϫⲉⲙⲛⲟⲩ<span class="underdot">ⲧⲉ</span></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>&nbsp;&nbsp;<span class="underdot">κ</span> . .</td>
+</tr>
+</tbody>
+</table>
+<p>“Apollonios on behalf of Jemnoute”<br>
+--</p>
+<div class="page-columns page-full"><p id="p94">
+1 Only traces of letters at the beginning of the name are visible and the end is in lacuna. Kellis documents in Greek mention several individuals named Ἀπολλώνιος (<em>O.Kellis</em> 9.2-3; 68.4-5;  <em>P.Kellis</em> 56.8) and Ἀπόλλων (<em>O.Kellis</em> 5.5; 72.5; 102.9; 147.1; <em>P.Kellis</em> 25.4; 61.11) or variants of the latter. ⲡⲟⲗⲗⲱⲛ is attested: <em>P.KellisCopt.</em> 45.7.
+</p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;531</span></div></div>
+<div id="plt-10.17" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.17-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.17.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="Plate&nbsp;10.17: Infrared image of Greek inscription on the west wall of room B6."><img src="assets/images/chapter-10/plt-10.17.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.17-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.17: Infrared image of Greek inscription on the west wall of room B6.
+</figcaption>
+</figure>
+</div>
+<p id="p95">
+ϩⲓⲧⲛ takes the meaning of ὑπέρ rather than διά, since Apollonios is much more likely to be acting on behalf of Jemnoute, a female, than the other way round. For a similar meaning of ϩⲓⲧⲛ, see, e.g., <em>P.Mich.Copt.</em> 14 verso, where ϩⲓⲧⲛ ⲡⲉⲛⲉⲓⲱⲧ is translated as “De la part du Père (du monastère)”.
+</p>
+<p id="p96">
+ϫⲉⲙⲛⲟⲩⲧⲉ, a variant of the feminine name Τσεμνούθης, is not attested in this spelling, but several other variants are found in Coptic documents from Kellis (ϫⲙⲛⲟⲩⲧⲉ: <em>P.Kellis</em> 5 C. 25.64,66 and 44.19; ⲧϫⲉⲙⲡⲛⲟⲩⲧⲉ: 26.50; ⲧⲥⲉⲙⲛⲟⲩⲑⲏⲥ: 11.5; ⲧϣⲙⲛⲟⲩⲧⲉ: 19.53, 62; Τσεμνούθης: 11.address,1. See also <em>P.Kellis</em> 1 G. 71.43).
+</p>
+<p id="p97">
+2 Faint traces of one or two letters are visible after the doubtful kappa. The letters in this line were smaller and more tightly spaced out than in l. 1.
+</p>
+</div>
+<div id="ins-2" class="page-columns page-full">
+<p><strong>2.</strong> Inscription in black ink. (<a href="#plt-10.17" class="quarto-xref">Plate&nbsp;<span>10.17</span></a>)<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a><br>
+Letters ± 2.5 cm high; rounded, indistinctive majuscules, neatly spaced out.<br>
+Area B, room B6, BF72 (west wall) near northwest niche.</p>
+<table class="table-borderless caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 95%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>εἷς θεὸς ὁ <span class="underdot">βοηθ</span> . . . . . . .[</td>
+</tr>
+</tbody>
+</table>
+<p>One God, who helps (?) - -</p>
+<p id="p98">
+For a discussion of the use of the common “one God” formula in different Near Eastern religious contexts, see Peterson and Markschies 2012. The inscriptions are also present in Egypt’s Western Desert (Shams ed-Din: <em>I.Oasis</em> 32,28; 38,50; 39,51; 41,58a; 43,66; and Bagawat: <em>I.Oasis</em> 62,1).
+</p>
+<div class="page-columns page-full"><p id="p99">
+The reading of the faint traces after <span class="underdot">βοηθ</span> is difficult. The word βοηθῶν is likely, considering the presence of the article ὁ after θεός. However, although the traces after theta could be read as a large omega, we do not see a nu. If instead the horizontal stroke is the bottom of a delta, we could be dealing with an abbreviation, <span class="underdot">βοηθ</span>(ῶν), followed by a different word, possibly  a name. The traces of the last two letters can be tentatively read as ιδ, in which case <span class="underdot">Δαουειδ</span> would be the most plausible reading if indeed the letter that follows the theta is a delta.
+</p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;532</span></div></div>
+<div id="plt-10.18" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.18-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.18.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="Plate&nbsp;10.18: Infrared image of graffito on the north wall of room B5."><img src="assets/images/chapter-10/plt-10.18.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.18-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.18: Infrared image of graffito on the north wall of room B5.
+</figcaption>
+</figure>
+</div>
+</div>
+<div id="ins-3" class="page-columns page-full">
+<p><strong>3.</strong> Graffito. (<a href="#plt-10.18" class="quarto-xref">Plate&nbsp;<span>10.18</span></a>)<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a><br>
+Letters 1–2 cm high.<br>
+Area B, room B5, BF58 (north wall), western half of wall.</p>
+<table class="table-borderless caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 95%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>Ὠρικενι δ β</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Ἰμουτε Μ<span class="underdot">αχ</span>η γ</td>
+</tr>
+</tbody>
+</table>
+<p id="p100">
+1 The meaning of the letters delta and beta at the end of the line is obscure. The delta can be an abbreviation of a patronymic, a title (e.g.&nbsp;δεκανός, or διάκονος), but it may well be something entirely different. However, there is no abbreviation mark and we have no comparanda to aid in the deciphering of such a short, unusual abbreviation, if indeed this is what we are dealing with. The beta may be a numeral (followed by a gamma in an analogous role in the next line). What these numbers stand for, however, is unknown.
+</p>
+<p id="p101">
+Most commonly attested in the Western Desert is the Greek version Ὠριγένης, also found in Kellis ostraka (<em>O.Kellis</em> 30.9 [162]; 51.2 [212-260]; 129.7 [third–fourth c.]) and the <em>KAB</em> (1386; 1407; 1762). This variant is a combination of other Coptic spellings attested in much later documents: ⲱⲣⲓⲅⲉⲛⲏ (<em>P.KRU</em> 93 [770–780]) and ϩⲱⲣⲓⲕⲉⲛ (<em>O.Wadi Sarga</em> 157 [seventh c.]).
+</p>
+<p id="p102">
+2 An alternative reading of this line is Ἰμούτ(ης) Ἐμούχη(ος) Γ, with an eta in place of an epsilon in the patronymic.
+</p>
+<p id="p103">
+Greek spelling of the common Egyptian masculine name Ỉy-m-htp (and var.). Ἰμουτ for Ἰμούτης: <em>SB</em> 20.14352.3 (Western Thebes, third–fourth c.); Ἰμουθ–: <em>O.Kellis</em> 222.concave.4.
+</p>
+<div class="page-columns page-full"><p id="p104">
+What follows the personal name in line 2 may be a patronymic, possibly in abbreviated form. A Μαχητ is attested in <em>KAB</em> 1687 and a Μαχ-ε is found in <em>O.Kell.</em> 96.5. 
+</p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;533</span></div></div>
+<p id="p105">
+A less likely alternative is Μουχη. Ἐμοῦχις and Μουχις are attested as names, but the are both rare and early. Mouchis as a toponym (several villages of that name are attested in the Nile Valley) is even less likely.
+</p>
+<p id="p106">
+The gamma seems to be the numeral 3, but, as in line 1, what it stands for is obscure.
+</p>
+</div>
+</section>
+<section id="sec-10.5" class="level2 page-columns page-full" data-number="10.5">
+<h2 data-number="10.5" class="anchored" data-anchor-id="sec-10.5"><span class="header-section-number">10.5</span> Figural Dipinti and Graffiti</h2>
+<p id="p107">
+The majority of the figural dipinti and graffiti are found on the north wall (BF73) of room B6, on the whitewashed plaster surface around a niche (<a href="#plt-10.13" class="quarto-xref">Plate&nbsp;<span>10.13</span></a>, <a href="#plt-10.14" class="quarto-xref">Plate&nbsp;<span>10.14</span></a>). In addition, one geometrical motif was incised on the south wall of the room (BF70). Wall BF73 bears numerous marks, both painted in black ink and scratched in the plaster surface, but only a few of the drawings are preserved well enough to permit identification. Besides the one inscription discussed above (<strong><a href="#ins-1">1</a></strong>), it was possible to identify one dipinto of a bird, two dipinti of ships (one nearly complete and one fragmentary), and one graffito of a ship. Chronological relationships between the dipinti are impossible to determine, but the ship graffito (<strong><a href="#fdg-4">4</a></strong>) cuts and is therefore later than the inscription and the bird dipinto (<strong><a href="#fdg-3">3</a></strong>). Like the inscriptions, the figural dipinti seem to be contemporary to or later than the last phase of the church complex and should be dated to the second half of the fourth century.
+</p>
+<p id="p108">
+It is difficult to say anything specific about the meaning and purpose of three representations of ships. The presence of ships in an oasis, away from navigable water courses, is somewhat perplexing,<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a> and one is tempted to seek an explanation in the symbolic meaning of the representations, all the more so that they appear in the context of a church complex. However, ships are not specifically Christian in their symbolism; boat graffiti are ubiquitous in the ancient world and in Egypt they are found on a wide variety of sites from all periods. Among representations of vessels dated to the third and fourth centuries, the story of Jonah is frequent, but so are other motifs, like the voyage of Odysseus and depictions of Nilotic scenery.<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a> Due to the state of preservation of the dipinti in black ink it is impossible to say whether they were part of a larger, more complex scene<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a> or, as seems more likely, constituted unrelated drawings executed on different occasions. In any case, no interpretation can be put forward with any degree of certainty.
+</p>
+<div id="fdg-1" class="page-columns page-full">
+<p><strong>1.</strong> Ship. (<a href="#plt-10.19" class="quarto-xref">Plate&nbsp;<span>10.19</span></a>, <a href="#plt-10.20" class="quarto-xref">Plate&nbsp;<span>10.20</span></a>)<br>
+Dipinto in black ink; 15 cm x 20 cm; Room B6, wall BF73.</p>
+<div class="page-columns page-full"><p id="p109">
+This dipinto is one of the best-preserved and most complete of the set. It is a relatively detailed representation of a sailed ship with a center mast and rigging. The drawing is faded in places and the plaster is broken in the lower part. As a result of damage and due to the cursory  character of the sketch, some elements of the image are ambiguous. We cannot determine the exact type or size of the ship from this depiction, nor its method of construction. However, on the basis of parallels it appears to be a merchant ship rather than a military or fishing vessel.<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a>
+</p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;534</span></div></div>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="plt-10.19" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.19-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.19.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="Plate&nbsp;10.19: Dipinto of a boat on the north wall of room B6."><img src="assets/images/chapter-10/plt-10.19.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.19-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.19: Dipinto of a boat on the north wall of room B6.
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="plt-10.20" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.20-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.20.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="Plate&nbsp;10.20: Drawing of a dipinto of a boat (north wall of room B6)."><img src="assets/images/chapter-10/plt-10.20.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.20-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.20: Drawing of a dipinto of a boat (north wall of room B6).
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p id="110">
+The mast stands vertically in the center of the hull. Its spindle is very long and rises high above the horizontal line that represents the yard. Curved lines likely representing the folds of a furled sail are fragmentarily preserved below the yard. There are two lifts connecting the yardarms to the masthead. Four ropes, possibly braces of the yard, trail down from the yardarms towards the base of the mast.<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a> Short lines extending from the yardarms (visible more clearly on the left-hand side) are enigmatic. They may represent the ropes used to tie up the sail at the ends of the yard.<a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a> The circular element in the place where the yard is attached to the mast may be a block mast (calcet) or another contraption used to facilitate securing lines and standing rigging.<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a>
+</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;535</span></div></div>
+<p id="111">
+The drawing of the hull is damaged at the bottom and in the center. The right-hand end is curved upwards and extends high, ending with what appears to be a massive acroter decorated with an ornament in the form of plumes, rendered as two curved lines. The left-hand end is rounded and terminates in an incurved possibly decorative element. The circular object represented near it is difficult to identify. Towards the left-hand side, there is a set of lines that appear to represent a steering oar with a handle.<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a> Judging from the location of this element, we can assume that the bow is on the right and the stern on the left. However, if indeed that is the case, the manner of depicting these elements is odd. In the majority of representations of Late Antique ships, it is the stern that is more pronounced and decorated with a plumed acroter (<em>aphlaston</em>), while the bow has a smaller, frequently incurved ornament.<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a> In this case, either the author of the dipinto confused the front and back of the ship or this is just intended as a decorative pattern.<a href="#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a>
+</p>
+</div>
+<div id="fdg-2" class="page-columns page-full">
+<p><strong>2.</strong> Ship (fragment). (<a href="#plt-10.21" class="quarto-xref">Plate&nbsp;<span>10.21</span></a>)<br>
+Dipinto; 30 x 23 cm; Room B6, wall BF73.</p>
+<div id="plt-10.21" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.21-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.21.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="Plate&nbsp;10.21: Drawing of a dipinto of a boat (north wall of room B6)."><img src="assets/images/chapter-10/plt-10.21.jpg" title="Pl. 10.21: Drawing of a dipinto of a boat (north wall of room B6)." class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.21-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.21: Drawing of a dipinto of a boat (north wall of room B6).
+</figcaption>
+</figure>
+</div>
+<p id="112">
+A dipinto in black ink located to the right of <strong><a href="#fdg-1">1</a></strong> is a fragmentary representation of a ship. It is large and executed in broad strokes, but the bottom of the image mostly faded or rubbed off, leaving only the mast, yard and rigging.
+</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;536</span></div></div>
+<p id="113">
+The masthead is not preserved. Two lines extending fore and aft from the top of the mast towards the bow and stern may represent the forestay and backstay, but their function is uncertain, as their bottom sections are no longer extant. Lines extending outwards from the mast to the yardarms likely represent braces, as it was the case in the more complete ship dipinto (<strong><a href="#fdg-1">1</a></strong>) described above.<a href="#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a>
+</p>
+<p id="114">
+It is difficult to determine if any part of the series of strokes to the left of the yard was part of the same ship, for instance as an acroter adorning the stern, but this seems unlikely. Also the thick horizontal line above the mast is enigmatic and most probably did not belong to this representation.
+</p>
+</div>
+<div id="fdg-3" class="page-columns page-full">
+<p><strong>3.</strong> Bird. (<a href="#plt-10.22" class="quarto-xref">Plate&nbsp;<span>10.22</span></a>, <a href="#plt-10.23" class="quarto-xref">Plate&nbsp;<span>10.23</span></a>)<br>
+Dipinto; 14 x 7 cm; Room B6, wall BF73.</p>
+<!-- TODO: Fix layout-width? Not working? -->
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2" data-layout-width="[40,60]">
+<div class="quarto-layout-row quarto-layout-valign-bottom">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="plt-10.22" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.22-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.22.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="Plate&nbsp;10.22: Dipinto of a bird on the north wall of room B6."><img src="assets/images/chapter-10/plt-10.22.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.22-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.22: Dipinto of a bird on the north wall of room B6.
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="plt-10.23" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.23-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.23.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="Plate&nbsp;10.23: Drawing of a dipinto of a bird (north wall of room B6)."><img src="assets/images/chapter-10/plt-10.23.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.23-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.23: Drawing of a dipinto of a bird (north wall of room B6).
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p id="115">
+The third of the identifiable figural dipinti in black ink is located to the left of the two ships. It represents a bird that escapes more precise identification despite its relatively good state of preservation. The neck and upturned tail are short and the nearly vertical lines on the body may represent distinctive plumage or simply a schematically rendered wing. The short beak extends horizontally from the relatively large head. The large, circular element in the center of the head may be an eye. The two legs are only partly preserved, and therefore their length cannot be assessed beyond doubt.
+</p>
+<p id="116">
+Some distinctive features were included in this representation: a curved line connecting the tip of the beak and front of the head, as well as some strokes on the back of and below the head, but a comparison to other iconographic representations of birds, both in graffiti and other art forms,<a href="#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a> has not yielded parallels.
+</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;537</span></div></div>
+</div>
+<div id="fdg-4" class="page-columns page-full">
+<p><strong>4.</strong> Ship. (<a href="#plt-10.24" class="quarto-xref">Plate&nbsp;<span>10.24</span></a>)<br>
+Graffito; 22 x 17 cm; Room B6, wall BF73.</p>
+<div id="plt-10.24" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.24-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.24.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="Plate&nbsp;10.24: Drawing of a graffito of a boat (north wall of room B6)."><img src="assets/images/chapter-10/plt-10.24.jpg" title="Pl. 10.24: Drawing of a graffito of a boat (north wall of room B6)." class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.24-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.24: Drawing of a graffito of a boat (north wall of room B6).
+</figcaption>
+</figure>
+</div>
+<p id="117">
+The graffito is cut into the plaster on top of inscription no. <strong><a href="#ins-1">1</a></strong> and the representation of the bird (<strong><a href="#fdg-3">3</a></strong>). The scratches are shallow and the lines are not clearly visible on the rough and cracked plaster. Aside from the top of the mast, the representation is complete.
+</p>
+<p id="118">
+The mast is located in the center of a rounded hull and the rigging (possibly the forestay and backstay) extends from a central point above, maybe the lost top of the mast, down towards the bow and stern. The yardarms and sail are not visible, but there are diagonal lines representing shrouds or stays supporting the mast.<a href="#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a> The left-hand end of the hull was likely the stern, since it rises higher than the other end and below it there are two lines that may have represented a steering oar. Above the right-hand end of the hull, most likely the bow, there are a series of intersecting lines that are difficult to interpret but may represent a decorative element.<a href="#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a>
+</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">p.&nbsp;538</span></div></div>
+<div id="plt-10.25" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-plt figure">
+<div aria-describedby="plt-10.25-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/images/chapter-10/plt-10.25.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-26" title="Plate&nbsp;10.25: Drawing of a graffito of a rosette (south wall of room B6)."><img src="assets/images/chapter-10/plt-10.25.jpg" title="Pl. 10.25: Drawing of a graffito of a rosette (south wall of room B6)." class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-plt" id="plt-10.25-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Plate&nbsp;10.25: Drawing of a graffito of a rosette (south wall of room B6).
+</figcaption>
+</figure>
+</div>
+</div>
+<div id="fdg-5">
+<p><strong>5.</strong> Rosette. (<a href="#plt-10.25" class="quarto-xref">Plate&nbsp;<span>10.25</span></a>)<br>
+Graffito; diam. 9 cm; Room B6, wall BF70.</p>
+<p id="119">
+The rosette was incised into white plaster covering the south wall of room B6 (BF70). The motif consists of a circle and three spindle-shaped petals inscribed into it. A faint line that formed one side of a fourth petal is visible in the lower part. In its complete form, such a rosette had six petals. The design was made by drawing seven identical interlinked circles, one in the center and six with their central points located on its circumference at regular intervals. The motif, usually repeated to form a pattern, is common in contemporary decoration, including wall paintings in houses in the Dakhla Oasis.<a href="#fn27" class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a> The pattern is also not uncommon in graffiti,<a href="#fn28" class="footnote-ref" id="fnref28" role="doc-noteref"><sup>28</sup></a> which show isolated rosettes drawn both with the help of a compass and freehand. In this case the drawing is incomplete, with only the central circle and the sections of circles that formed four of the petals.
+</p>
+</div>
+</section>
+<section id="notes" class="level2" data-number="10.6">
+<h2 data-number="10.6" class="anchored" data-anchor-id="notes"><span class="header-section-number">10.6</span> Notes</h2>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-ast_bagnall_2015" class="csl-entry" role="listitem">
+Ast, Rodney, and Roger S. Bagnall. 2015. <span>“New <span>Evidence</span> for the <span>Roman</span> <span>Garrison</span> of <span>Trimithis</span>.”</span> <em>Tyche</em> 30: 1–4.
+</div>
+<div id="ref-bagnall_1997" class="csl-entry" role="listitem">
+Bagnall, Roger S. 1997. <em>The <span>Kellis</span> <span>Agricultural</span> <span>Account</span> <span>Book</span>: <span>P</span>. <span>Kell</span>. <span>IV</span> <span>Gr</span>. 96</em>. Oxford: Oxbow Books.
+</div>
+<div id="ref-bagnall_2012" class="csl-entry" role="listitem">
+———. 2012. <span>“Christianity on Thoth’s Hill.”</span> In <em>An Oasis City</em>, edited by Roger S. Bagnall, Paola Davoli, and Colin A. Hope, 409–16. New York: NYU Press.
+</div>
+<div id="ref-bagnall_2004" class="csl-entry" role="listitem">
+Bagnall, Roger S., and Klaas A. Worp, eds. 2004. <em>Chronological <span>Systems</span> of <span>Byzantine</span> <span>Egypt</span></em>. Boston: Brill.
+</div>
+<div id="ref-basch_1987" class="csl-entry" role="listitem">
+Basch, Lucien. 1987. <em>Le <span>Musée</span> imaginaire de la marine antique</em>. Athens: Institut Hellénique pour la Préservation de la Tradition Nautique.
+</div>
+<div id="ref-brenk_2000" class="csl-entry" role="listitem">
+Brenk, B. 2000. <em>Lucerna a <span>Navicella</span> con <span>Pietro</span> e <span>Paolo</span>,” in <span>Ensoli</span> and <span>La</span> <span>Rocca</span> 2000: 453</em>. Edited by Pierre Briant. Paris: Thotm.
+</div>
+<div id="ref-casson_1971" class="csl-entry" role="listitem">
+Casson, Lionel. 1971. <em>Ships and <span>Seamanship</span> in the <span>Ancient</span> <span>World</span></em>. Princeton: Princeton University Press.
+</div>
+<div id="ref-cottevieille-giraudet_1931" class="csl-entry" role="listitem">
+Cottevieille-Giraudet, R. 1931. <em>Rapport sur les fouilles de <span>Médamoud</span></em>. Cairo: Institut Français d’Archéologie Orientale.
+</div>
+<div id="ref-dijkstra_2012" class="csl-entry" role="listitem">
+Dijkstra, Jitse H. F. 2012. <span>“Syene. <span>I</span>, <span>The</span> <span>Figural</span> and <span>Textual</span> <span>Graffiti</span> from the <span>Temple</span> of <span>Isis</span> at <span>Aswan</span>.”</span>
+</div>
+<div id="ref-fakhry_1951" class="csl-entry" role="listitem">
+Fakhry, Ahmed. 1951. <em>The <span>Necropolis</span> of <span>El</span>-<span>Bagawat</span> in <span>Kharga</span> <span>Oasis</span></em>. Cairo: Government Press.
+</div>
+<div id="ref-gardner_2000" class="csl-entry" role="listitem">
+Gardner, Iain. 2000. <span>“He Has Gone to the Monastery...”</span> In <em>Studia <span>Manichaica</span>. <span>IV</span>. <span>Internationaler</span> <span>Kongress</span> Zum <span>Manichäismus</span>, Berlin, 14.-18. Juli 1997</em>, edited by Ronald E. Emmerick, Werner Sundermann, and Peter Zieme, 247–57. Berlin: Akademie Verlag.
+</div>
+<div id="ref-gardner_2012" class="csl-entry" role="listitem">
+———. 2012. <span>“Coptic Ostraka from Qasr-Al Dakhleh.”</span> In <em>The <span>Oasis</span> <span>Papers</span> 6: <span>Proceedings</span> of the <span>Sixth</span> <span>International</span> <span>Conference</span> of the <span>Dakhleh</span> <span>Oasis</span> <span>Project</span></em>, edited by Roger S. Bagnall, Paola Davoli, and Colin A. Hope, 391–408. Oxford: Oxbow Books.
+</div>
+<div id="ref-gardner_2014" class="csl-entry" role="listitem">
+Gardner, Iain, Anthony Alcock, and Wolf-Peter Funk, eds. 2014. <em>Coptic <span>Documentary</span> <span>Texts</span> from <span>Kellis</span></em>. Oxford &amp; Philadelphia: Oxbow Books.
+</div>
+<div id="ref-gardner_1999" class="csl-entry" role="listitem">
+Gardner, Iain, Anthony Alcock, Wolf-Peter Funk, and P.Kell V, eds. 1999. <em>Coptic <span>Documentary</span> <span>Texts</span> from <span>Kellis</span></em>. Vol. 1. Oxford: Oxbow Books.
+</div>
+<div id="ref-jaritz_1980" class="csl-entry" role="listitem">
+Jaritz, H. 1980. <em>Elephantine <span>III</span>. <span>Die</span> <span>Terrassen</span> vor den <span>Tempeln</span> des <span>Chnum</span> und der <span>Satet</span></em>. Mainz: Ph. von Zabern.
+</div>
+<div id="ref-kucera_2012" class="csl-entry" role="listitem">
+Kucera, Paul. 2012. <span>“<span>Al</span> Qasr: <span>The</span> <span>Roman</span> <em>Castrum</em> of <span>Dakhleh Oasis</span>.”</span> In <em>The <span>Oasis</span> <span>Papers</span> 6: <span>Proceedings</span> of the <span>Sixth</span> <span>International</span> <span>Conference</span> of the <span>Dakhleh</span> <span>Oasis</span> <span>Project</span></em>, edited by Roger S. Bagnall, Paola Davoli, and Colin A. Hope, 305–16. Oxford: Oxbow Books.
+</div>
+<div id="ref-langner_2001" class="csl-entry" role="listitem">
+Langner, M. 2001. <em>Antike <span>Graffitizeichnungen</span>: <span>Motive</span>, <span>Gestaltung</span> und <span>Bedeutung</span></em>. Wiesbaden: Ludwig Reichert.
+</div>
+<div id="ref-pekary_1999" class="csl-entry" role="listitem">
+Pekáry, Irene. 1999. <em>Repertorium der <span>Hellenistischen</span> und <span>Römischen</span> <span>Schiffsdarstellung</span>. <span>Boreas</span>, <span>Münstersche</span> <span>Beiträge</span> zur <span>Archäologie</span> 8</em>. Münster: Archäologisches Seminar der Universität.
+</div>
+<div id="ref-piankoff_1960" class="csl-entry" role="listitem">
+Piankoff, Alexandre. 1960. <span>“The <span>Osireion</span> of <span>Seti</span> <span>I</span> at <span>Abydos</span> During the <span>Graeco</span>-<span>Roman</span> <span>Period</span> and the <span>Christian</span> <span>Occupation</span>.”</span> <em>Bulletin de La Société d’Archéologie Copte</em> 15: 125–41.
+</div>
+<div id="ref-sauneron_1972" class="csl-entry" role="listitem">
+Sauneron, S., and J. Jacquet. 1972. <em>Les hermitages chrétiens du désert d’<span>Esna</span></em>. Vol. 1. Cairo: Institut Français d’Archéologie Orientale.
+</div>
+<div id="ref-sidebotham_1990" class="csl-entry" role="listitem">
+Sidebotham, Steven E. 1990. <span>“Ship <span>Graffiti</span> from <span>Mons</span> <span>Porphyrites</span>.”</span> <em>Bulletin de l’Institut Français d’Archéologie Orientale</em> 90: 339–45.
+</div>
+<div id="ref-wagner_1987" class="csl-entry" role="listitem">
+Wagner, Guy. 1987. <em>Les <span>Oasis</span> d’Égypte à l’époque grecque, romaine et byzantine d’après les documents grecs</em>. Cairo: Institut Français d’Archéologie Orientale.
+</div>
+<div id="ref-yacoub_1995" class="csl-entry" role="listitem">
+Yacoub, Mohamed. 1995. <em>Splendeurs des mosaiques de <span>Tunisie</span></em>. Tunis: Agence Nationale du Patrimoine.
+</div>
+</div>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>See <span class="citation" data-cites="bagnall_2012">Bagnall (<a href="references.html#ref-bagnall_2012" role="doc-biblioref">2012</a>)</span>: Introduction; see also <span class="citation" data-cites="wagner_1987">Wagner (<a href="references.html#ref-wagner_1987" role="doc-biblioref">1987, 279–83</a>)</span>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>See F. Leemhuis on El-Qasr, in <em>Report to the Supreme Council of Antiquities on the 2005–2006 Season Activities of the Dakhleh Oasis Project</em>, pp.&nbsp;69–70, available online at <a href="http://artsonline.monash.edu.au/ancient-cultures/files/2013/04/dakhlehreport-2005-2006.pdf">http://artsonline.monash.edu.au/ancient-cultures/files/2013/04/dakhlehreport-2005-2006.pdf</a>, and subsequent reports of the Qasr Dakhleh Project accessible on the same website.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><span class="citation" data-cites="kucera_2012">Kucera (<a href="references.html#ref-kucera_2012" role="doc-biblioref">2012</a>)</span>; see also <span class="citation" data-cites="ast_bagnall_2015">Ast and Bagnall (<a href="references.html#ref-ast_bagnall_2015" role="doc-biblioref">2015</a>)</span>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p><span class="citation" data-cites="gardner_2012">Gardner (<a href="references.html#ref-gardner_2012" role="doc-biblioref">2012, 471–74</a>)</span>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Gardner <span class="citation" data-cites="gardner_2000">(<a href="references.html#ref-gardner_2000" role="doc-biblioref">2000, 247–57 esp.&nbsp;254</a>)</span>.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p><span class="citation" data-cites="bagnall_1997">Bagnall (<a href="references.html#ref-bagnall_1997" role="doc-biblioref">1997, 75, 81–82</a>)</span>.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>The editors are indebted to Grzegorz Ochała for his valuable suggestions on the reading and interpretation of this ostrakon.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>ⳁ ⲡⲁϩⲁⲙ ⲡⲕⲉⲫⲁⲗ( ) ⲉϥⲥϩⲁⲓ and ⳁ ⲡⲁϩⲁⲙ ⲡⲕⲩⲫ( ) ⲡⲉⲧⲥϩⲁⲓ (Paham the foreman writes…). See <span class="citation" data-cites="gardner_2012">Gardner (<a href="references.html#ref-gardner_2012" role="doc-biblioref">2012, 471 and 473</a>)</span>.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>See <span class="citation" data-cites="bagnall_2004">Bagnall and Worp (<a href="references.html#ref-bagnall_2004" role="doc-biblioref">2004, 44</a>)</span>; <span class="citation" data-cites="gardner_1999">Gardner et al. (<a href="references.html#ref-gardner_1999" role="doc-biblioref">1999</a>)</span>; <span class="citation" data-cites="gardner_2014">Gardner, Alcock, and Funk (<a href="references.html#ref-gardner_2014" role="doc-biblioref">2014</a>)</span>.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>See also <a href="3_mound-1.html#plt-3.50" class="quarto-xref">Plate&nbsp;<span>3.50</span></a>.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>See also <a href="3_mound-1.html#plt-3.51" class="quarto-xref">Plate&nbsp;<span>3.51</span></a>.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>See <a href="3_mound-1.html#plt-3.25" class="quarto-xref">Plate&nbsp;<span>3.25</span></a>.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>For other ship graffiti in the desert, see, e.g,. Pomey 2012; we are very grateful to Patrice Pomey for his insightful comments on this material; see also Fakhry <span class="citation" data-cites="fakhry_1951">(<a href="references.html#ref-fakhry_1951" role="doc-biblioref">1951, figs. 44, 69, 93, 94</a>)</span>, and <span class="citation" data-cites="sidebotham_1990">Sidebotham (<a href="references.html#ref-sidebotham_1990" role="doc-biblioref">1990</a>)</span>.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>See the Navis II Project database at <a href="www2.rgzm.de/navis2">www2.rgzm.de/navis2</a>. The main reference works on naval iconography are still <span class="citation" data-cites="casson_1971">Casson (<a href="references.html#ref-casson_1971" role="doc-biblioref">1971</a>)</span> and <span class="citation" data-cites="basch_1987">Basch (<a href="references.html#ref-basch_1987" role="doc-biblioref">1987</a>)</span>. For ships’ graffiti, see also <span class="citation" data-cites="dijkstra_2012">Dijkstra (<a href="references.html#ref-dijkstra_2012" role="doc-biblioref">2012, 73–79</a>)</span>.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>For instance, see graffiti depicting multiple ships in <span class="citation" data-cites="langner_2001">Langner (<a href="references.html#ref-langner_2001" role="doc-biblioref">2001, pl. 140–143</a>)</span>.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p><span class="citation" data-cites="langner_2001">Langner (<a href="references.html#ref-langner_2001" role="doc-biblioref">2001, 118–20</a>)</span>.<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p>The closest parallel among graffiti comes from Gebel Silsileh; see <span class="citation" data-cites="langner_2001">Langner (<a href="references.html#ref-langner_2001" role="doc-biblioref">2001, pl. 123, no. 1944</a>)</span>. Other similar representations in graffiti: <span class="citation" data-cites="langner_2001">Langner (<a href="references.html#ref-langner_2001" role="doc-biblioref">2001, pl. 119, no. 1893 (Pergamon), pl. 122, nos. 1931–33 (Nymphaion), 1938 (Pompeii), pl. 123, nos. 1945–6 (Silsileh), pl. 131, nos. 2026 (Alexandria, Anfouchi), 2035–37 (Delos),2 pl. 132, nos. 2039 (Delos), 2044 (Ostia), and 2047 (Pompeii)</a>)</span>. In decorative arts (mosaics, wall paintings), this type of representation is much less common than depictions of standing rigging and braces extending fore and aft from the mast and sail. See, e.g., <span class="citation" data-cites="pekary_1999">Pekáry (<a href="references.html#ref-pekary_1999" role="doc-biblioref">1999, 258, Rom–Ci67</a>)</span>.<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18"><p>Possible parallels, though rendered much less schematically, are: <span class="citation" data-cites="pekary_1999">Pekáry (<a href="references.html#ref-pekary_1999" role="doc-biblioref">1999, 246, Rom–Ci12</a>)</span>; <span class="citation" data-cites="yacoub_1995">Yacoub (<a href="references.html#ref-yacoub_1995" role="doc-biblioref">1995, figs. 85–86</a>)</span>. In graffiti, see <span class="citation" data-cites="langner_2001">Langner (<a href="references.html#ref-langner_2001" role="doc-biblioref">2001, pl. 145, no. 2235</a>)</span> (Delos). The elements at the masthead and yardarms may also be pennants (<span class="citation" data-cites="casson_1971">Casson (<a href="references.html#ref-casson_1971" role="doc-biblioref">1971, 246 and fig.&nbsp;149</a>)</span>).<a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn19"><p>For parallels, see <span class="citation" data-cites="langner_2001">Langner (<a href="references.html#ref-langner_2001" role="doc-biblioref">2001, pl. 132, no. 2044 (Ostia)</a>)</span> and <span class="citation" data-cites="pekary_1999">Pekáry (<a href="references.html#ref-pekary_1999" role="doc-biblioref">1999, 206, I–P10 and 290, Rom–M57</a>)</span>; <span class="citation" data-cites="casson_1971">Casson (<a href="references.html#ref-casson_1971" role="doc-biblioref">1971, 232–33</a>)</span>.<a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20"><p>For depictions of steering oars with handles, see <span class="citation" data-cites="brenk_2000">Brenk (<a href="references.html#ref-brenk_2000" role="doc-biblioref">2000, 453, n.41</a>)</span>; Dougga ship 5 (<span class="citation" data-cites="yacoub_1995">Yacoub (<a href="references.html#ref-yacoub_1995" role="doc-biblioref">1995, figs. 85–86</a>)</span>). <span class="citation" data-cites="casson_1971">Casson (<a href="references.html#ref-casson_1971" role="doc-biblioref">1971, 232–33</a>)</span> (fitting for the halyard, most likely made of bronze).<a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn21"><p><span class="citation" data-cites="langner_2001">Langner (<a href="references.html#ref-langner_2001" role="doc-biblioref">2001, pls. 116–144, passim</a>)</span>; see also, for example, <span class="citation" data-cites="pekary_1999">Pekáry (<a href="references.html#ref-pekary_1999" role="doc-biblioref">1999, 286, Rom–M43</a>)</span>; <span class="citation" data-cites="yacoub_1995">Yacoub (<a href="references.html#ref-yacoub_1995" role="doc-biblioref">1995, figs. 60, 73, 85 and 86</a>)</span>; <span class="citation" data-cites="brenk_2000">Brenk (<a href="references.html#ref-brenk_2000" role="doc-biblioref">2000, 453, n.&nbsp;41</a>)</span>. On merchant galleys that featured an <em>aphlaston</em>, see <span class="citation" data-cites="casson_1971">Casson (<a href="references.html#ref-casson_1971" role="doc-biblioref">1971, 158</a>)</span>.<a href="#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn22"><p><span class="citation" data-cites="yacoub_1995">Yacoub (<a href="references.html#ref-yacoub_1995" role="doc-biblioref">1995, fig. 73</a>)</span>.<a href="#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn23"><p>See footnote 17. <!-- TODO: Crossreference footnotes? --><a href="#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn24"><p><span class="citation" data-cites="langner_2001">Langner (<a href="references.html#ref-langner_2001" role="doc-biblioref">2001, pls. 104–11</a>)</span>.<a href="#fnref24" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn25"><p>For similar representations, see <span class="citation" data-cites="langner_2001">Langner (<a href="references.html#ref-langner_2001" role="doc-biblioref">2001, pl. 122, no. 1934</a>)</span> (Nymphaion); <span class="citation" data-cites="langner_2001">Langner (<a href="references.html#ref-langner_2001" role="doc-biblioref">2001, pl. 123, no. 1953</a>)</span> (Nymphaion).<a href="#fnref25" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn26"><p>See <span class="citation" data-cites="langner_2001">Langner (<a href="references.html#ref-langner_2001" role="doc-biblioref">2001, pl. 130, no. 2021 (Benghazi) and 2023 (Rome)</a>)</span>.<a href="#fnref26" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn27"><p>E., the Villa of Serenos at Amheida (personal observation).<a href="#fnref27" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn28"><p>See <span class="citation" data-cites="langner_2001">Langner (<a href="references.html#ref-langner_2001" role="doc-biblioref">2001, 29–30, pls. 4 and 5</a>)</span>. Medamud: <span class="citation" data-cites="cottevieille-giraudet_1931">Cottevieille-Giraudet (<a href="references.html#ref-cottevieille-giraudet_1931" role="doc-biblioref">1931, 67, no. 136</a>)</span>; Elephantine: <span class="citation" data-cites="jaritz_1980">Jaritz (<a href="references.html#ref-jaritz_1980" role="doc-biblioref">1980, 84, no. F20</a>)</span>; Syene: <span class="citation" data-cites="dijkstra_2012">Dijkstra (<a href="references.html#ref-dijkstra_2012" role="doc-biblioref">2012, 105, no. 172</a>)</span>; as a Christian symbol: Abydos: <span class="citation" data-cites="piankoff_1960">Piankoff (<a href="references.html#ref-piankoff_1960" role="doc-biblioref">1960, 149, fig.&nbsp;16</a>)</span>; Esna: <span class="citation" data-cites="sauneron_1972">Sauneron and Jacquet (<a href="references.html#ref-sauneron_1972" role="doc-biblioref">1972, 1:70–71</a>)</span>.<a href="#fnref28" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -676,6 +2320,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
