@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,17 +32,18 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./0_foreword.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./0_contents.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-485d01fc63b59abcd3ee1bf1e8e2748d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -97,7 +98,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Amheida IV: ʿAin el-Gedida</a> 
     </div>
@@ -113,6 +116,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Amheida IV: ʿAin el-Gedida</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0_contents.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contents</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -253,7 +262,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong><em>This is a work-in-progress digital proof; the digital edition is expected to be published in September 2025. Please consult the print edition until final publication: <a href="https://isaw.nyu.edu/publications/isaw-monographs/ain-el-gedida">https://isaw.nyu.edu/publications/isaw-monographs/ain-el-gedida</a></em></strong></p>
+<p><strong><em>This is a work-in-progress digital proof; the digital edition is expected to be published in November 2025. Please consult the print edition until final publication: <a href="https://isaw.nyu.edu/publications/isaw-monographs/ain-el-gedida">https://isaw.nyu.edu/publications/isaw-monographs/ain-el-gedida</a></em></strong></p>
 <p id="p1">
 The Institute for the Study of the Ancient World has since 2012 published <a href="https://isaw.nyu.edu/publications/isaw-monographs">ISAW Monographs</a>, “authoritative studies of new evidence and research into the texts, archaeology, art history, material culture, and history of the cultures and periods representing the core areas of study at ISAW and reflecting its intellectual mission.” As part of that mission, ISAW has partnered with the NYU Division of Libraries and the NYU Press to publish not only print versions, but also digital versions as part of the <a href="https://dlib.nyu.edu/ancientworld/about/">Ancient World Digital Library</a>. These online digital versions (for example, <a href="https://dlib.nyu.edu/awdl/isaw/oasis-city/"><em>An Oasis City</em></a>) have from the start aimed to provide clear presentations of the book structure and content with attention to links to supplementary material and related digital resources, and in particular <a href="https://dlib.nyu.edu/awdl/isaw/isaw-papers/20/">linked open data resources</a>.
 </p><p>
@@ -322,13 +331,14 @@ ISAW Digital Monographs<br>
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -672,8 +682,8 @@ ISAW Digital Monographs<br>
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Amheida IV: ʿAin el-Gedida">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Amheida IV: ʿAin el-Gedida</span>
+      <a href="./0_contents.html" class="pagination-link" aria-label="Contents">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Contents</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
